@@ -6,7 +6,7 @@ The hyperbolic tangent function, commonly known as tanh, is an activation functi
 The tanh function is a mathematical function that describes the hyperbolic tangent of a given input. It is defined as:
 
 $$
-\text{tanh}(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
+\tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
 $$
 where:
 
