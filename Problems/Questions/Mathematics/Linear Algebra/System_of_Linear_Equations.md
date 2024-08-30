@@ -11,9 +11,9 @@ A \cdot \mathbf{x} = \mathbf{b}
 $$
 
 where:
-- \( A \) is the coefficient matrix
-- \( \mathbf{x} \) is the vector of variables
-- \( \mathbf{b} \) is the constant vector
+- $ A $ is the coefficient matrix
+- $\mathbf{x}$ is the vector of variables
+- $\mathbf{b}$ is the constant vector
 
 ### Example
 
