@@ -9,7 +9,7 @@ and
 $B$ is defined as:
 
 $$
-\text{cosine_similarity}(\mathbf{A}, \mathbf{B}) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}
+\text{cosine\_similarity}(\mathbf{A}, \mathbf{B}) = \frac{\sum_{i=1}^{n} a_i \cdot b_i}{\sqrt{\sum_{i=1}^{n} a_i^2} \cdot \sqrt{\sum_{i=1}^{n} b_i^2}}
 $$
 
 $A⋅B$ is the dot product of vectors 
