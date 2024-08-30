@@ -1,4 +1,4 @@
-# Linear Algebra Coding Questions
+# Linear Algebra
 
 ## Easy: Matrix Addition
 

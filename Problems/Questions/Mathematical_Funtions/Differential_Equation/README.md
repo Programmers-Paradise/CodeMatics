@@ -1,4 +1,4 @@
-# Differential Equations Coding Questions
+# Differential Equations 
 
 ## Easy: Euler's Method for Solving Ordinary Differential Equations
 
