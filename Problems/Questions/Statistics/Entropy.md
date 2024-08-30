@@ -37,3 +37,6 @@ For a biased coin where $p(\text{heads}) = 0.9$ and $p(\text{tails}) = 0.1 $:
 $$
 H(X) = -[0.9 \log_2 0.9 + 0.1 \log_2 0.1] \approx 0.47 \text{ bits}
 $$
+
+## Challenge
+Create a program to demonstrate Entropy of a dataset.
