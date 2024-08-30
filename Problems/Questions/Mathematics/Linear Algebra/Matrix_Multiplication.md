@@ -10,11 +10,11 @@ c_{ij} = \sum_{k=1}^{n} a_{ik} \cdot b_{kj}
 $$
 
 where:
-- \( A \) is an \( m \times n \) matrix
-- \( B \) is an \( n \times p \) matrix
-- \( C \) is an \( m \times p \) matrix
-- \( a_{ik} \) is an element of matrix \( A \)
-- \( b_{kj} \) is an element of matrix \( B \)
+-$A$is an $m \times n$ matrix
+- $B $ is an $ n \times p $ matrix
+- $C$ is an $ m \times p $ matrix
+- $a_{ik}$ is an element of matrix $A $
+- $b_{kj}$ is an element of matrix $ B $
 
 ### Conditions for Multiplication
 Matrix multiplication is only defined when the number of columns in the first matrix \( A \) is equal to the number of rows in the second matrix \( B \). Specifically, if \( A \) is an \( m \times n \) matrix and \( B \) is an \( n \times p \) matrix, then \( C = A \cdot B \) will be an \( m \times p \) matrix.
