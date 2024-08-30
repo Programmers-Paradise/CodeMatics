@@ -4,7 +4,7 @@ Entropy is a measure of uncertainty or randomness in a system. It quantifies the
 
 ## Entropy Formula
 
-The entropy \( H(X) \) of a discrete random variable \( X \) with possible outcomes \( \{x_1, x_2, \ldots, x_n\} \) and corresponding probabilities \( \{p_1, p_2, \ldots, p_n\} \) is defined as:
+The entropy $H(X)$ of a discrete random variable $X$ with possible outcomes ${(x_1, x_2, \ldots, x_n)}$ and corresponding probabilities ${(p_1, p_2, \ldots, p_n)}$ is defined as:
 
 $$
 H(X) = -\sum_{i=1}^{n} p(x_i) \log_2 p(x_i)
