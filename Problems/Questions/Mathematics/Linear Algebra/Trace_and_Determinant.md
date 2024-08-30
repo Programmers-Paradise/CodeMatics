@@ -4,7 +4,7 @@ The trace of a matrix is a fundamental concept in linear algebra. It is defined 
 
 ### Definition
 
-For a square matrix \( A \) of size \( n \times n \), the trace is denoted by \( \text{tr}(A) \) and is calculated as:
+For a square matrix \( A \) of size (n x n), the trace is denoted by \( tr(A) \) and is calculated as:
 
 $$
 \text{tr}(A) = \sum_{i=1}^{n} a_{ii}
@@ -33,7 +33,7 @@ $$
 
 ### Properties
 
-- **Linearity**: The trace operation is linear, meaning for matrices \( A \) and \( B \) and scalars \( \alpha \) and \( \beta \):
+- **Linearity**: The trace operation is linear, meaning for matrices \( A \) and \( B \) and scalars \( alpha \) and \( beta \):
 
   $$
   \text{tr}(\alpha A + \beta B) = \alpha \text{tr}(A) + \beta \text{tr}(B)

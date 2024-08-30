@@ -12,8 +12,8 @@ $$
 
 where:
 - \( A \) is the coefficient matrix
-- \( \mathbf{x} \) is the vector of variables
-- \( \mathbf{b} \) is the constant vector
+- \( x ) is the vector of variables
+- \( b ) is the constant vector
 
 ### Example
 
@@ -43,7 +43,6 @@ y
 13 \\
 5
 \end{pmatrix}
-
 $$
 
 ### Solving the System
@@ -54,7 +53,7 @@ To solve the system, we can use various methods such as:
 2. **Elimination Method**: Add or subtract equations to eliminate one variable, then solve the resulting simpler system.
 3. **Matrix Method**: Use matrix operations to find the solution. This involves:
    - Finding the inverse of matrix \( A \) (if it exists)
-   - Multiplying the inverse of \( A \) by \( \mathbf{b} \)
+   - Multiplying the inverse of \( A \) by \( b )
 
 ### Example Solution using Matrix Method
 

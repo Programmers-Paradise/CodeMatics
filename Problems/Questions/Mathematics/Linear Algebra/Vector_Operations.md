@@ -4,7 +4,7 @@ Vectors are fundamental objects in linear algebra and are used to represent quan
 
 ### Vector Addition
 
-The sum of two vectors \( \mathbf{u} \) and \( \mathbf{v} \) is a vector \( \mathbf{w} \) where each component is the sum of the corresponding components of \( \mathbf{u} \) and \( \mathbf{v} \):
+The sum of two vectors u and v is a vector w where each component is the sum of the corresponding components of u and v:
 
 $$
 \mathbf{w} = \mathbf{u} + \mathbf{v}
@@ -26,7 +26,7 @@ $$
 
 ### Scalar Multiplication
 
-Multiplying a vector \( \mathbf{v} \) by a scalar \( \alpha \) scales the vector by \( \alpha \), changing its magnitude but not its direction:
+Multiplying a vector v by a scalar alpha scales the vector by alpha , changing its magnitude but not its direction:
 
 $$
 \alpha \mathbf{v} = \begin{pmatrix} \alpha v_1 \\ \alpha v_2 \end{pmatrix}
@@ -34,7 +34,7 @@ $$
 
 ### Dot Product
 
-The dot product of two vectors \( \mathbf{u} \) and \( \mathbf{v} \) is a scalar defined as:
+The dot product of two vectors u and u is a scalar defined as:
 
 $$
 \mathbf{u} \cdot \mathbf{v} = \sum_{i=1}^{n} u_i v_i
@@ -56,7 +56,7 @@ $$
 
 ### Cross Product
 
-The cross product of two vectors \( \mathbf{u} \) and \( \mathbf{v} \) (only in 3D) results in a vector perpendicular to both \( \mathbf{u} \) and \( \mathbf{v} \):
+The cross product of two vectors u and v (only in 3D) results in a vector perpendicular to both u and v:
 
 $$
 \mathbf{u} \times \mathbf{v} = \begin{vmatrix}
@@ -66,11 +66,11 @@ v_1 & v_2 & v_3
 \end{vmatrix}
 $$
 
-Where \( \mathbf{i}, \mathbf{j}, \mathbf{k} \) are unit vectors along the x, y, and z axes.
+Where i , j and  k are unit vectors along the x, y, and z axes.
 
 ### Magnitude of a Vector
 
-The magnitude (or norm) of a vector \( \mathbf{v} \) is calculated as:
+The magnitude (or norm) of a vector v is calculated as:
 
 $$
 \|\mathbf{v}\| = \sqrt{\sum_{i=1}^{n} v_i^2}
@@ -97,8 +97,8 @@ Vector operations are widely used in various fields including:
 
 ## Problem Statement
 
-Given two vectors \( \mathbf{u} \) and \( \mathbf{v} \), perform the following operations:
-1. Compute the sum \( \mathbf{w} = \mathbf{u} + \mathbf{v} \).
-2. Find the dot product \( \mathbf{u} \cdot \mathbf{v} \).
-3. If in 3D, compute the cross product \( \mathbf{u} \times \mathbf{v} \).
-4. Calculate the magnitude of \( \mathbf{u} \) and \( \mathbf{v} \).
+Given two vectors u and v, perform the following operations:
+1. Compute the sum $$ \mathbf{w} = \mathbf{u} + \mathbf{v}. $$
+2. Find the dot product $$ \mathbf{u} \cdot \mathbf{v} .$$
+3. If in 3D, compute the cross product $$ \mathbf{u} \times \mathbf{v} .$$
+4. Calculate the magnitude of u and v.
