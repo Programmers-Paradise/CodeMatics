@@ -8,7 +8,7 @@ The Sieve of Eratosthenes is an efficient algorithm for finding all prime number
 
 2. **Mark Non-Primes**:
    - Start with the first prime number, 2.
-   - For each prime $ p $, mark all multiples of $p$ as `false` (non-prime) starting from $p^2$ up to $n$.
+   - For each prime $ {p}$, mark all multiples of $p$ as `false` (non-prime) starting from $p^2$ up to $n$.
 
 3. **Find Next Prime**:
    - Move to the next number still marked as `true` and repeat until $\sqrt{n} $.
