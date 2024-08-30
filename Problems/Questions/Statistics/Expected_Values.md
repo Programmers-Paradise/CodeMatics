@@ -35,3 +35,7 @@ E(X) = \sum_{i=1}^{6} i \cdot \frac{1}{6} = \frac{1 + 2 + 3 + 4 + 5 + 6}{6} = \f
 $$
 
 This indicates that the average outcome of rolling the die is 3.5.
+
+## Challenge
+
+Create a program to find the Expected Values from a Probability Distribution.
