@@ -3,14 +3,14 @@
 Matrix multiplication is a fundamental operation in linear algebra where two matrices are combined to produce a new matrix. It is used in various applications including computer graphics, data analysis, and machine learning.
 
 ### Definition
-Given two matrices \( A \) and \( B \), their product  $$ C = A \cdot B $$ is a matrix where each element $$  c_{ij} $$  is computed as follows:
+Given two matrices \( A \) and \( B \), their product  $ C = A \cdot B $ is a matrix where each element $  c_{ij} $  is computed as follows:
 
 $$
 c_{ij} = \sum_{k=1}^{n} a_{ik} \cdot b_{kj}
 $$
 
 where:
--$A$is an $m \times n$ matrix
+- $A$ is an $m \times n$ matrix
 - $B$ is an $n \times p$ matrix
 - $C$ is an $m \times p$ matrix
 - $a_{ik}$ is an element of matrix $A $
