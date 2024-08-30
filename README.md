@@ -28,7 +28,7 @@ This repository contains a collection of functions implementing mathematical, st
 
 ## Submitting in the repository
 This repository is a collaborative space for our club members to practice and learn from each other. Here's how you can contribute:
-1. Answer a Question: If you see a question you can answer, create a new file with the following naming convention: {username}_{semester}.{file_extention}
+1. Answer a Question: If you see a question you can answer, create a new file with the following naming convention: {Team_name_problem_no}.{file_extention}
 (e.g., (JohnDoe_3.rs)). Include your name, semester, and a clear explanation of your solution.
 2. Submit Your Answer: Commit your answer file and submit a pull request. Our moderators will review your submission and provide feedback.
 3. Official Answer: After reviewing all submissions, we will post an official answer for each question. This will help us learn from each other and improve our understanding of the subject matter.
