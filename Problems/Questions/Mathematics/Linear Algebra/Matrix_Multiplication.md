@@ -11,8 +11,8 @@ $$
 
 where:
 -$A$is an $m \times n$ matrix
-- $B $ is an $ n \times p $ matrix
-- $C$ is an $ m \times p $ matrix
+- $B$ is an $n \times p$ matrix
+- $C$ is an $m \times p$ matrix
 - $a_{ik}$ is an element of matrix $A $
 - $b_{kj}$ is an element of matrix $ B $
 
