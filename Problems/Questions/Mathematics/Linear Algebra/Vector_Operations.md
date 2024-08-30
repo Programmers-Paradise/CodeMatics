@@ -98,7 +98,7 @@ Vector operations are widely used in various fields including:
 ## Problem Statement
 
 Given two vectors u and v, perform the following operations:
-1. Compute the sum $$ \mathbf{w} = \mathbf{u} + \mathbf{v}. $$
-2. Find the dot product $$ \mathbf{u} \cdot \mathbf{v} .$$
-3. If in 3D, compute the cross product $$ \mathbf{u} \times \mathbf{v} .$$
+1. Compute the sum $ \mathbf{w} = \mathbf{u} + \mathbf{v}. $
+2. Find the dot product $ \mathbf{u} \cdot \mathbf{v} .$
+3. If in 3D, compute the cross product $ \mathbf{u} \times \mathbf{v} .$
 4. Calculate the magnitude of u and v.

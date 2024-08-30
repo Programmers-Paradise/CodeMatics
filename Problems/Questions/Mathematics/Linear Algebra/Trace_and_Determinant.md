@@ -11,7 +11,7 @@ $$
 $$
 
 where:
-- \( a_{ii} \) are the diagonal elements of the matrix \( A \)
+- \( $ a_{ii} $  \) are the diagonal elements of the matrix \( A \)
 
 ### Example
 
@@ -33,13 +33,13 @@ $$
 
 ### Properties
 
-- **Linearity**: The trace operation is linear, meaning for matrices \( A \) and \( B \) and scalars \( alpha \) and \( beta \):
+- **Linearity**: The trace operation is linear, meaning for matrices \( A \) and \( B \) and scalars \( $ \alpha $ \) and \( $ \beta $ \):
 
   $$
   \text{tr}(\alpha A + \beta B) = \alpha \text{tr}(A) + \beta \text{tr}(B)
   $$
 
-- **Similarity Invariance**: The trace of a matrix is invariant under similarity transformations. If \( B = P^{-1}AP \), then:
+- **Similarity Invariance**: The trace of a matrix is invariant under similarity transformations. If \( $ B = P^{-1}AP $ \), then:
 
   $$
   \text{tr}(B) = \text{tr}(A)
