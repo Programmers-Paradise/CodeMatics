@@ -12,8 +12,8 @@ $$
 
 where:
 - \( A \) is the coefficient matrix
-- \( x ) is the vector of variables
-- \( b ) is the constant vector
+- \( x \) is the vector of variables
+- \( b \) is the constant vector
 
 ### Example
 
