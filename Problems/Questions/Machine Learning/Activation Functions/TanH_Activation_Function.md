@@ -7,7 +7,7 @@ The tanh function is a mathematical function that describes the hyperbolic tange
 
 $$
 \text{tanh}(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
-$$
+$$$
 where:
 
 - 𝑥 is the input to the function.
