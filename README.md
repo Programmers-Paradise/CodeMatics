@@ -26,7 +26,7 @@ This repository contains a collection of functions implementing mathematical, st
     - Reinforcement Learning
     - Deep Learning
 
-## Contributing
+## Submitting in the repository
 This repository is a collaborative space for our club members to practice and learn from each other. Here's how you can contribute:
 1. Answer a Question: If you see a question you can answer, create a new file with the following naming convention: {username}_{semester}.{file_extention}
 (e.g., (JohnDoe_3.rs)). Include your name, semester, and a clear explanation of your solution.
