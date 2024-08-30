@@ -43,7 +43,6 @@ y
 13 \\
 5
 \end{pmatrix}
-
 $$
 
 ### Solving the System
