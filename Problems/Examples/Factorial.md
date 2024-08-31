@@ -9,7 +9,7 @@ n is the product of all positive integers less than or equal to
                                         
 >𝑛 = ∏n = n × (n-1) × (n-2) . . . . .(n-(n-1))
 
-As the call are Recursive,The base condition is :
+As the call are Recursive ,The base condition is :
 
 > 0! = 1
 
