@@ -8,15 +8,15 @@ $B=(b_1,b2,…,b_n)$ in an
 $n$-dimensional space, the Manhattan distance is calculated as:
 
 $$
-\text{Manhattan\_distance}(\mathbf{A}, \mathbf{B}) = \sum_{i=1}^{n} |a_i - b_i|
+Manhattan Distance(\mathbf{A}, \mathbf{B}) = \sum_{i=1}^{n} |a_i - b_i|
 $$
 
 **Example:**
 
-In a 2-dimensional space, if \( ${A} = (1, 2)$ \) and \( ${B} = (4, 6)$ \):
+In a 2-dimensional space, if ${A} = (1, 2)$ and ${B} = (4, 6)$ :
 
 $$
-\text{Manhattan\_distance}(\mathbf{A}, \mathbf{B}) = |1 - 4| + |2 - 6| = 3 + 4 = 7
+ManhattanDistance(\mathbf{A}, \mathbf{B}) = |1 - 4| + |2 - 6| = 3 + 4 = 7
 $$
 
 ## Challenge
