@@ -12,8 +12,8 @@ $$
 $$
 
 where:
-- \( x \) is the input to the function.
-- \( e \) is the base of the natural logarithm (approximately 2.718).
+- $x$ is the input to the function.
+- $e$ is the base of the natural logarithm (approximately 2.718).
 
 ## Challenge
 Create a Sigmoid function and plot its curve.
