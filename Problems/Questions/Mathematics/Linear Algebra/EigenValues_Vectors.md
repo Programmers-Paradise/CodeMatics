@@ -14,9 +14,9 @@ A \cdot v = \lambda \cdot v
 $$
 
 where:
-- A is the matrix
-- v is the eigenvector
-- λ is the eigenvalue
+- $A$ is the matrix
+- $v$ is the eigenvector
+- $λ$ is the eigenvalue
 
 ### Finding Eigenvalues and Eigenvectors
 To find the eigenvalues and eigenvectors of a matrix, we solve the characteristic equation:
