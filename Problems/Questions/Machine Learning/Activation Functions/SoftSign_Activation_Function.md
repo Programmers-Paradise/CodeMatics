@@ -14,6 +14,7 @@ $$
 
 ### Derivative:
 Its derivative, which is useful during backpropagation, is:
+
 $$
 \frac{d}{dx} \left( \frac{x}{1 + |x|} \right) =
 \begin{cases}
