@@ -26,7 +26,7 @@ $$
 30 \div 2 = 15
 $$
 
-15 is not divisible by 2, so move to the next prime.
+$$\qquad$$ 15 is not divisible by 2, so move to the next prime.
 
 2. **Divide by 3**:
 
@@ -34,11 +34,11 @@ $$
 15 \div 3 = 5
 $$
 
-5 is a prime number itself.
+$$\qquad$$ 5 is a prime number itself.
 
 3. **Combine the Factors**:
 
-The prime factorization of 60 is:
+$$\qquad$$ The prime factorization of 60 is:
 
 $$
 60 = 2^2 \cdot 3^1 \cdot 5^1
