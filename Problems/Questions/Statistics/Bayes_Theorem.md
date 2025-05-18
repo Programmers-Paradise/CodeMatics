@@ -9,18 +9,18 @@ $$
 
 Where:
 
-- $( P(A|B))$ is the probability of $( A )$ given $( B )$ (posterior probability).
-- $( P(B|A) )$ is the probability of $( B )$ given $( A)$ (likelihood).
-- $( P(A))$ is the probability of $( A )$ (prior probability).
-- $( P(B) )$ is the probability of $( B )$ (marginal likelihood).
+- $P(A|B)$ is the probability of $A$ given $B$ (posterior probability).
+- $P(B|A)$ is the probability of $B$ given $A$ (likelihood).
+- $P(A)$ is the probability of $A$ (prior probability).
+- $P(B)$ is the probability of $B$ (marginal likelihood).
 
 ### Example
 
 Suppose a disease affects 1% of the population. A test for the disease is 
 Given:
 
-- $( P(A) = 0.01 )$ (1% prior probability)
-- $( P(B|A) = 0.9 )$ (90% test accuracy)
+- $P(A) = 0.01$ (1% prior probability)
+- $P(B|A) = 0.9$ (90% test accuracy)
 
 Using Bayes' Theorem:
 
