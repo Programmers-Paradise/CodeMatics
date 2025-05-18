@@ -3,7 +3,7 @@
 Matrix multiplication is a fundamental operation in linear algebra where two matrices are combined to produce a new matrix. It is used in various applications including computer graphics, data analysis, and machine learning.
 
 ### Definition
-Given two matrices \( A \) and \( B \), their product \( C = A $ \cdot $ B \) is a matrix where each element \( $ c_{ij} $ \) is computed as follows:
+Given two matrices $A$ and  $B$, their product $C = A \cdot  B$ is a matrix where each element $c_{ij}$ is computed as follows:
 
 $$
 c_{ij} = \sum_{k=1}^{n} a_{ik} \cdot b_{kj}
@@ -14,10 +14,10 @@ where:
 - $B$ is an $n \times p$ matrix
 - $C$ is an $m \times p$ matrix
 - $a_{ik}$ is an element of matrix $A $
-- $b_{kj}$ is an element of matrix $ B $
+- $b_{kj}$ is an element of matrix $B $
 
 ### Conditions for Multiplication
-Matrix multiplication is only defined when the number of columns in the first matrix \( A \) is equal to the number of rows in the second matrix \( B \). Specifically, if \( A \) is an \( m $ \times $ n \) matrix and \( B \) is an \( n $ \times $ p \) matrix, then \( C = A $ \cdot $ B \) will be an \( m $ \times $ p \) matrix.
+Matrix multiplication is only defined when the number of columns in the first matrix $A$ is equal to the number of rows in the second matrix $B$. Specifically, if $A$ is an $m \times n$ matrix and $B$ is an $n \times p$ matrix, then $C = A \cdot B$ will be an $m \times p$ matrix.
 
 ### Example
 If we have matrices:
@@ -34,7 +34,7 @@ b_{21} & b_{22}
 \end{pmatrix}
 $$
 
-The product \( C = A \cdot B \) is computed as:
+The product $C = A \cdot B$ is computed as:
 
 $$
 C = \begin{pmatrix}
@@ -48,4 +48,4 @@ Matrix multiplication is widely used in various fields such as computer graphics
 
 ## Problem Statement
 
-Given two matrices \( A \) and \( B \), your task is to compute the product \( C = A.B \) and output the resulting matrix.
+Given two matrices $A$ and $B $, your task is to compute the product $C = A.B$ and output the resulting matrix.
