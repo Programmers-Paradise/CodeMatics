@@ -19,7 +19,8 @@ $$
 ### Explanation
 
 - **Prime Factorization**: Express $n$ as a product of primes raised to their respective powers.
-- **Calculation**: Multiply $n$ by $ \left(1 - \frac{1}{p_i}\right) $ for each distinct prime $p_i $ dividing $n$.
+  
+- **Calculation**: Multiply $n$ by $\left(1 - \frac{1}{p_i}\right)$ for each distinct prime $p_i$ dividing $n$.
 
 ### Example
 
@@ -29,12 +30,10 @@ To find $\phi(12) $:
 
 2. Apply the formula:
 
-$$
-\phi(12) = 12 \left(1 - \frac{1}{2}\right) \left(1 - \frac{1}{3}\right)
+$$\phi(12) = 12 \left(1 - \frac{1}{2}\right) \left(1 - \frac{1}{3}\right)
 $$
 
-$$
-\phi(12) = 12 \cdot \frac{1}{2} \cdot \frac{2}{3} = 4
+$$\phi(12) = 12 \cdot \frac{1}{2} \cdot \frac{2}{3} = 4
 $$
 
 So, there are 4 positive integers up to 12 that are relatively prime to 12.
