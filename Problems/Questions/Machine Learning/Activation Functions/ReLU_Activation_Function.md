@@ -11,7 +11,10 @@ ReLU stands for Rectified Linear Unit. It is a piecewise linear function that ou
 ### ReLU (Rectified Linear Unit)
 
 The ReLU function is defined as:
-$${ReLU}(x) = \max(0, x)$$
+
+
+$${ReLU}(x) = \max(0, x)
+$$
 where $x$ is the input to the function.
 
 
