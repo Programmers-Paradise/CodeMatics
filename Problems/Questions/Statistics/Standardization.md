@@ -4,16 +4,16 @@ Standardization, also known as Z-score normalization, is a technique used in sta
 
 ### Definition
 
-For a given dataset with a feature \( x \), the standardized value (also known as the Z-score) \( z \) is computed as:
+For a given dataset with a feature $x$, the standardized value (also known as the Z-score) $z$ is computed as:
 
 $$
 z = \frac{x - \mu}{\sigma}
 $$
 
 where:
-- \( x \) is the original value
-- \( $ \mu $\) is the mean of the dataset
-- \( $ \sigma $\) is the standard deviation of the dataset
+- $x$ is the original value
+- $\mu$ is the mean of the dataset
+- $\sigma$ is the standard deviation of the dataset
 
 ### Example
 
@@ -24,7 +24,7 @@ X = \{1, 2, 3, 4, 5\}
 $$
 
 To standardize this dataset:
-1. Calculate the mean \( $ \mu $\):
+1. Calculate the mean $\mu$):
 
 $$
 \mu = \frac{1 + 2 + 3 + 4 + 5}{5} = 3
@@ -36,9 +36,9 @@ $$
 \sigma = \sqrt{\frac{(1-3)^2 + (2-3)^2 + (3-3)^2 + (4-3)^2 + (5-3)^2}{5}} = \sqrt{2} \approx 1.414
 $$
 
-3. Standardize each value \( x \) using the formula \( $ z = \frac{x - \mu}{\sigma} $ \).
+3. Standardize each value $x$ using the formula $z = \frac{x - \mu}{\sigma}$ .
 
-For example, for \( x = 1 \):
+For example, for $x = 1$:
 
 $$
 z = \frac{1 - 3}{1.414} \approx -1.414
