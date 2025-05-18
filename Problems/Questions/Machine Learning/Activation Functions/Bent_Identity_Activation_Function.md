@@ -9,9 +9,9 @@ It combines the advantages of linear activation with a gentle non-linear compone
 ## Mathematical Representation of the Bent Identity Function
 The Bent Identity function is defined as:
 
+$$\text{BentIdentity}(x) = \frac{\sqrt{x^2 + 1} - 1}{2} + x
 $$
-\text{BentIdentity}(x) = \frac{\sqrt{x^2 + 1} - 1}{2} + x
-$$
+
 This can also be interpreted as a non-linear correction added to the identity function:
 
 - When $x→0$, the non-linear term dominates
@@ -20,8 +20,9 @@ This can also be interpreted as a non-linear correction added to the identity fu
 
 ### Derivative:
 The derivative is smooth and always positive, which helps with gradient-based optimization:
-$$
-\frac{d}{dx} \text{BentIdentity}(x) = \frac{x}{2\sqrt{x^2 + 1}} + 1
+
+
+$$\frac{d}{dx} \text{BentIdentity}(x) = \frac{x}{2\sqrt{x^2 + 1}} + 1
 $$
 
 - The derivative is always greater than 0.5 and less than 1.5
