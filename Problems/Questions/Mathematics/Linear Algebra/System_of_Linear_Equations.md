@@ -6,21 +6,19 @@ A system of linear equations is a collection of one or more linear equations inv
 
 A system of linear equations can be represented in matrix form as:
 
-$$
-A \cdot \mathbf{x} = \mathbf{b}
+$$A \cdot \mathbf{x} = \mathbf{b}
 $$
 
 where:
-- \( A \) is the coefficient matrix
-- \( x \) is the vector of variables
-- \( b \) is the constant vector
+- $A$ is the coefficient matrix
+- $x$ is the vector of variables
+- $b$ is the constant vector
 
 ### Example
 
 Consider the following system of linear equations:
 
-$$
-\begin{cases}
+$$\begin{cases}
 2x + 3y = 13 \\
 4x - y = 5
 \end{cases}
@@ -37,13 +35,14 @@ $$
 \begin{pmatrix}
 x \\
 y
-\end{pmatrix}
-=
+\end{pmatrix}$$
+$$=
 \begin{pmatrix}
 13 \\
 5
 \end{pmatrix}
 $$
+
 
 ### Solving the System
 
@@ -52,26 +51,24 @@ To solve the system, we can use various methods such as:
 1. **Substitution Method**: Solve one of the equations for one variable and substitute this value into the other equations.
 2. **Elimination Method**: Add or subtract equations to eliminate one variable, then solve the resulting simpler system.
 3. **Matrix Method**: Use matrix operations to find the solution. This involves:
-   - Finding the inverse of matrix \( A \) (if it exists)
-   - Multiplying the inverse of \( A \) by \( b )
+   - Finding the inverse of matrix $A$ (if it exists)
+   - Multiplying the inverse of $A$ by $b$
 
 ### Example Solution using Matrix Method
 
 For the example system:
 
-1. Find the inverse of matrix \( A \):
+1. Find the inverse of matrix $A$:
 
-$$
-A^{-1} = \begin{pmatrix}
+$$A^{-1} = \begin{pmatrix}
 2 & 3 \\
 4 & -1
 \end{pmatrix}^{-1}
 $$
 
-2. Multiply the inverse by \( \mathbf{b} \):
+2. Multiply the inverse by $\mathbf{b}$:
 
-$$
-\mathbf{x} = A^{-1} \cdot \mathbf{b}
+$$\mathbf{x} = A^{-1} \cdot \mathbf{b}
 $$
 
 ### Applications
