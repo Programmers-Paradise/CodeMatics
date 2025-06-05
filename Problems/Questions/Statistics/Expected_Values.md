@@ -4,7 +4,7 @@ The expected value, or mean, represents the long-term average or mean value of a
 
 ## Expected Value Formula
 
-For a discrete random variable \( X \) with possible outcomes ${x_1, x_2, .., x_n}$ and corresponding probabilities ${p_1, p_2, \ldots, p_n}$ the expected value $ E(X)$ is calculated as:
+For a discrete random variable $X$ with possible outcomes ${x_1, x_2, .., x_n}$ and corresponding probabilities ${p_1, p_2, \ldots, p_n}$ the expected value $E(X)$ is calculated as:
 
 $$
 E(X) = \sum_{i=1}^{n} x_i \cdot p(x_i)
@@ -25,8 +25,8 @@ $$
 
 For a six-sided die:
 
-- Outcomes: \( 1, 2, 3, 4, 5, 6 \)
-- Probability for each outcome: \( \frac{1}{6} \)
+- Outcomes: $1, 2, 3, 4, 5, 6$
+- Probability for each outcome: $\frac{1}{6}$
 
 The expected value is:
 

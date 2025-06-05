@@ -4,14 +4,14 @@ The trace of a matrix is a fundamental concept in linear algebra. It is defined 
 
 ### Definition
 
-For a square matrix \( A \) of size (n x n), the trace is denoted by \( tr(A) \) and is calculated as:
+For a square matrix $A$ of size $n x n$, the trace is denoted by $tr(A)$ and is calculated as:
 
 $$
 \text{tr}(A) = \sum_{i=1}^{n} a_{ii}
 $$
 
 where:
-- \( $ a_{ii} $  \) are the diagonal elements of the matrix \( A \)
+- $a_{ii}$ are the diagonal elements of the matrix $A$
 
 ### Example
 
@@ -25,7 +25,7 @@ A = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-The trace of matrix \( A \) is calculated as:
+The trace of matrix $A$ is calculated as:
 
 $$
 \text{tr}(A) = 1 + 4 + 6 = 11
@@ -33,22 +33,19 @@ $$
 
 ### Properties
 
-- **Linearity**: The trace operation is linear, meaning for matrices \( A \) and \( B \) and scalars \( $ \alpha $ \) and \( $ \beta $ \):
+- **Linearity**: The trace operation is linear, meaning for matrices $A$ and $B$ and scalars $\alpha$ and $\beta$:
 
-  $$
-  \text{tr}(\alpha A + \beta B) = \alpha \text{tr}(A) + \beta \text{tr}(B)
-  $$
-
-- **Similarity Invariance**: The trace of a matrix is invariant under similarity transformations. If \( $ B = P^{-1}AP $ \), then:
-
-  $$
-  \text{tr}(B) = \text{tr}(A)
+  $$\text{tr}(\alpha A + \beta B) = \alpha \text{tr}(A) + \beta \text{tr}(B)
   $$
 
-- **Trace of Product**: For matrices \( A \) and \( B \) of compatible dimensions:
+- **Similarity Invariance**: The trace of a matrix is invariant under similarity transformations. If $B = P^{-1}AP$ , then:
 
+  $$\text{tr}(B) = \text{tr}(A)
   $$
-  \text{tr}(AB) = \text{tr}(BA)
+
+- **Trace of Product**: For matrices $A$ and $B$ of compatible dimensions:
+
+  $$\text{tr}(AB) = \text{tr}(BA)
   $$
 
 ### Applications
@@ -60,4 +57,4 @@ The trace of a matrix has applications in various fields including:
 
 ## Problem Statement
 
-Given a square matrix \( A \), your task is to compute the trace of the matrix by summing its diagonal elements.
+Given a square matrix $A$, your task is to compute the trace of the matrix by summing its diagonal elements.

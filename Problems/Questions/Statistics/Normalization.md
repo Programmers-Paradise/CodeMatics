@@ -4,16 +4,16 @@ Normalization is a technique used in statistics and data preprocessing to scale 
 
 ### Definition
 
-For a given dataset with a feature \( x \), the normalized value \( x' \) is computed as:
+For a given dataset with a feature $x$, the normalized value $x'$ is computed as:
 
 $$
 x' = \frac{x - x_{\min}}{x_{\max} - x_{\min}}
 $$
 
 where:
-- \( x \) is the original value
-- \( $ x_{\min} $ \) is the minimum value in the dataset
-- \( $ x_{\max} $ \) is the maximum value in the dataset
+- $x$ is the original value
+- $x_{\min}$ is the minimum value in the dataset
+- $x_{\max}$ is the maximum value in the dataset
 
 ### Example
 
@@ -30,15 +30,15 @@ $$
 x_{\min} = 10, \quad x_{\max} = 50
 $$
 
-2. Normalize each value \( x \) using the formula \( $ x' = \frac{x - x_{\min}}{x_{\max} - x_{\min}} $ \).
+2. Normalize each value $x$ using the formula $x' = \frac{x - x_{\min}}{x_{\max} - x_{\min}}$.
 
-For example, for \( x = 20 \):
+For example, for $x = 20$:
 
 $$
 x' = \frac{20 - 10}{50 - 10} = \frac{10}{40} = 0.25
 $$
 
-After normalization, the dataset \( X' \) becomes:
+After normalization, the dataset $X'$ becomes:
 
 $$
 X' = \{0, 0.25, 0.5, 0.75, 1\}

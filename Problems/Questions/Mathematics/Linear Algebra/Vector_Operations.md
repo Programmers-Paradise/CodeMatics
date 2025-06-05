@@ -4,7 +4,7 @@ Vectors are fundamental objects in linear algebra and are used to represent quan
 
 ### Vector Addition
 
-The sum of two vectors u and v is a vector w where each component is the sum of the corresponding components of u and v:
+The sum of two vectors $u$ and $v$ is a vector $w$ where each component is the sum of the corresponding components of $u$ and $v$:
 
 $$
 \mathbf{w} = \mathbf{u} + \mathbf{v}
@@ -97,8 +97,8 @@ Vector operations are widely used in various fields including:
 
 ## Problem Statement
 
-Given two vectors u and v, perform the following operations:
-1. Compute the sum $ \mathbf{w} = \mathbf{u} + \mathbf{v}. $
-2. Find the dot product $ \mathbf{u} \cdot \mathbf{v} .$
-3. If in 3D, compute the cross product $ \mathbf{u} \times \mathbf{v} .$
-4. Calculate the magnitude of u and v.
+Given two vectors $u$ and $v$, perform the following operations:
+1. Compute the sum $\mathbf{w} = \mathbf{u} + \mathbf{v}.$
+2. Find the dot product $\mathbf{u} \cdot \mathbf{v}.$
+3. If in 3D, compute the cross product $\mathbf{u} \times \mathbf{v}.$
+4. Calculate the magnitude of $u$ and $v$.

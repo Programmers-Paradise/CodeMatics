@@ -4,7 +4,7 @@ The standard deviation measures the amount of variation or dispersion in a set o
 
 ### Standard Deviation Formula
 
-For a dataset with \( n \) values ${x_1, x_2, \ldots, x_n}$, with a mean $\bar{x} $, the standard deviation $\sigma $ is calculated as:
+For a dataset with $n$ values ${x_1, x_2, \ldots, x_n}$, with a mean $\bar{x}$, the standard deviation $\sigma$ is calculated as:
 
 1. **Population Standard Deviation**:
 
@@ -20,14 +20,14 @@ $$
 
 Where:
 
-- $N$is the total number of values in the population.
-- $ \mu $ is the population mean.
-- $ n $ is the number of values in the sample.
-- $ \bar{x} $ is the sample mean.
+- $N$ is the total number of values in the population.
+- $\mu$ is the population mean.
+- $n$ is the number of values in the sample.
+- $\bar{x}$ is the sample mean.
 
 ## Example
 
-For a dataset ${4, 8, 6, 5, 7} $ with a mean $\bar{x} = 6 $:
+For a dataset ${4, 8, 6, 5, 7}$ with a mean $\bar{x} = 6$:
 
 1. Compute the variance:
 

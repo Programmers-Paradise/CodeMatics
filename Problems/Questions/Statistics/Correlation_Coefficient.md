@@ -27,9 +27,9 @@ Where:
 
 ## Notable Outcomes
 
-- **\( r = 1 \)**: Perfect positive correlation.
-- **\( r = -1 \)**: Perfect negative correlation.
-- **\( r = 0 \)**: No linear relationship between the variables.
+- **$r = 1$**: Perfect positive correlation.
+- **$r = -1$**: Perfect negative correlation.
+- **$r = 0$**: No linear relationship between the variables.
 
 ### Example
 
