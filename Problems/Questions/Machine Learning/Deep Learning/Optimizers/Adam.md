@@ -12,62 +12,73 @@ The **Adam (Adaptive Moment Estimation)** optimizer is a first-order stochastic 
 
 
 ### **Step 1: Compute First Moment Estimate (Momentum)**  
+
 $$
 m_t = \beta_1 m_{t-1} + (1 - \beta_1) g_t
 $$  
-This computes the EMA of gradients over time, with $ \beta_1 $ controlling how much weight is given to past gradients.  
 
-**Example**: For $ \beta_1 = 0.9 $, recent gradients contribute more heavily than older ones.
+This computes the EMA of gradients over time, with $\beta_1$ controlling how much weight is given to past gradients.  
 
-### **Step 2: Compute Second Moment Estimate (RMSProp)**  
+**Example**: For $\beta_1 = 0.9$, recent gradients contribute more heavily than older ones.
+
+### **Step 2: Compute Second Moment Estimate (RMSProp)** 
+
 $$
 v_t = \beta_2 v_{t-1} + (1 - \beta_2) g_t^2
 $$  
+
 This computes the EMA of squared gradients, enabling adaptive learning rate scaling.  
 
-**Example**: For $ \beta_2 = 0.999 $, this smooths out noisy or sparse gradients.
+**Example**: For $\beta_2 = 0.999$, this smooths out noisy or sparse gradients.
 
 ### **Step 3: Bias Correction**  
-Since $ m_1 = v_1 = 0 $ at initialization, the initial estimates are biased toward zero. Bias correction is applied as:  
+Since $m_1 = v_1 = 0$ at initialization, the initial estimates are biased toward zero. Bias correction is applied as:  
+
 $$
 \hat{m}_t = \frac{m_t}{1 - \beta_1^t}, \quad \hat{v}_t = \frac{v_t}{1 - \beta_2^t}
 $$  
 
 **Derivation of Bias Correction**:  
-The EMA is initialized at zero, leading to an underestimation of early gradients. The correction term $ 1/(1 - \beta_i^t) $ approximates the expected value of the true moments. As $ t \to \infty $, $ \hat{m}_t \approx m_t $.  
+The EMA is initialized at zero, leading to an underestimation of early gradients. The correction term $1/(1 - \beta_i^t)$ approximates the expected value of the true moments. As $t \to \infty$, $\hat{m}_t \approx m_t$.  
 
-### **Step 4: Parameter Update**  
+### **Step 4: Parameter Update** 
+
 $$
 \theta_{t+1} = \theta_t - \alpha \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}
 $$  
-This updates parameters using the corrected moments, with adaptive learning rates scaled by $ \sqrt{\hat{v}_t} $.  
+
+This updates parameters using the corrected moments, with adaptive learning rates scaled by $\sqrt{\hat{v}_t}$.  
 
 **Key Components**:  
-- **Numerator ($ \hat{m}_t $)**: Direction of update (from momentum).  
-- **Denominator ($ \sqrt{\hat{v}_t + \epsilon} $)**: Adapts learning rate based on gradient magnitude.  
+- **Numerator ($\hat{m}_t$)**: Direction of update (from momentum).  
+- **Denominator ($\sqrt{\hat{v}_t + \epsilon}$)**: Adapts learning rate based on gradient magnitude.  
 
 ---
 
 ###**Derivation Overview**  
 
 ### **From SGD with Momentum to ADAM**  
-SGD with momentum updates parameters as:  
+SGD with momentum updates parameters as: 
+
 $$
 \theta_{t+1} = \theta_t - \alpha m_t, \quad \text{where } m_t = \beta_1 m_{t-1} + (1 - \beta_1) g_t
 $$  
+
 This improves convergence but uses a fixed learning rate $ \alpha $.  
 
 ### **From RMSProp to ADAM**  
-RMSProp scales the learning rate by the square root of the EMA of squared gradients:  
+RMSProp scales the learning rate by the square root of the EMA of squared gradients: 
+
 $$
 \theta_{t+1} = \theta_t - \frac{\alpha}{\sqrt{v_t + \epsilon}} g_t, \quad v_t = \beta_2 v_{t-1} + (1 - \beta_2) g_t^2
 $$  
+
 This adapts the learning rate per parameter but lacks momentum.  
 
 ### **Combining Both Concepts**  
 ADAM unifies these ideas:  
-1. Use $ m_t $ for direction (momentum).  
-2. Scale $ m_t $ by $ 1/\sqrt{v_t} $ to adapt learning rates.  
+1. Use $m_t$ for direction (momentum).  
+2. Scale $m_t$ by $1/\sqrt{v_t}$ to adapt learning rates.  
 3. Apply bias correction to improve early training stability.  
 
 ---
@@ -84,22 +95,30 @@ ADAM unifies these ideas:
 ---
 
 ### **Key Equations Recap**  
-1. **First Moment**:  
+1. **First Moment**:
+
    $$
    m_t = \beta_1 m_{t-1} + (1 - \beta_1) g_t
    $$  
+
 2. **Second Moment**:  
+
    $$
    v_t = \beta_2 v_{t-1} + (1 - \beta_2) g_t^2
    $$  
+
 3. **Bias-Corrected Moments**:  
+
    $$
    \hat{m}_t = \frac{m_t}{1 - \beta_1^t}, \quad \hat{v}_t = \frac{v_t}{1 - \beta_2^t}
    $$  
-4. **Parameter Update**:  
+
+4. **Parameter Update**: 
+
    $$
    \theta_{t+1} = \theta_t - \alpha \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}
    $$  
+   
 ---
 ### **Features and Advantages**  
 
@@ -115,9 +134,9 @@ ADAM unifies these ideas:
 ---
 
 ### **Practical Considerations**  
-- **Bias Correction**: Crucial for early training stability (e.g., in the first few steps, $ m_1 = 0 $ would otherwise lead to zero updates).  
-- **Adaptive Learning Rates**: The denominator $ \sqrt{\hat{v}_t} $ ensures that parameters with large gradients are updated more conservatively.  
-- **Hyperparameter Tuning**: While ADAM is robust to defaults ($ \alpha = 10^{-3}, \beta_1 = 0.9, \beta_2 = 0.999 $), tuning can improve performance in specific tasks (e.g., image segmentation, NLP).  
+- **Bias Correction**: Crucial for early training stability (e.g., in the first few steps, $m_1 = 0$ would otherwise lead to zero updates).  
+- **Adaptive Learning Rates**: The denominator $\sqrt{\hat{v}_t}$ ensures that parameters with large gradients are updated more conservatively.  
+- **Hyperparameter Tuning**: While ADAM is robust to defaults ($\alpha = 10^{-3}, \beta_1 = 0.9, \beta_2 = 0.999$), tuning can improve performance in specific tasks (e.g., image segmentation, NLP).  
 
 ---
 
