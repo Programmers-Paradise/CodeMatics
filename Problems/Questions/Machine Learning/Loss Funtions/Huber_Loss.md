@@ -6,7 +6,7 @@ Huber Loss is a **robust loss function** used for regression tasks, combining th
 
 ### Huber Loss Formula  
 
-For $ n $ observations, where $ y_i $ is the actual value and $ \hat{y}_i $ is the predicted value, and $ \delta > 0 $ is a hyperparameter defining the threshold for quadratic vs linear behavior:  
+For $n$ observations, where $y_i$ is the actual value and $\hat{y}_i$ is the predicted value, and $\delta > 0$ is a hyperparameter defining the threshold for quadratic vs linear behavior:  
 
 $$
 L = \frac{1}{n} \sum_{i=1}^{n}
@@ -17,27 +17,27 @@ L = \frac{1}{n} \sum_{i=1}^{n}
 $$
 
 Where:  
-- $ y_i $ is the actual value.  
-- $ \hat{y}_i $ is the predicted value.  
-- $ \delta $ controls the transition point between quadratic and linear behavior.  
+- $y_i$ is the actual value.  
+- $\hat{y}_i$ is the predicted value.  
+- $\delta$ controls the transition point between quadratic and linear behavior.  
 
 ---
 
 ### Explanation  
 
-- **Quadratic Behavior**: For small errors (within $ \delta $), Huber Loss behaves like MSE, ensuring smooth gradients.  
+- **Quadratic Behavior**: For small errors (within $\delta$), Huber Loss behaves like MSE, ensuring smooth gradients.  
 - **Linear Behavior**: For large errors, it behaves like MAE, reducing sensitivity to outliers.  
 
 ---
 
 ### Example  
 
-Predicted values $ \hat{y} = [2.0, 3.5, 1.0] $, actual values $ y = [3.0, 4.0, 2.0] $, and $ \delta = 1 $.  
+Predicted values $\hat{y} = [2.0, 3.5, 1.0]$, actual values $y = [3.0, 4.0, 2.0]$, and $\delta = 1$.  
 
 1. Compute individual losses:  
-   - First term: $ |3.0 - 2.0| = 1.0 \leq \delta $ → $ \frac{1}{2}(1)^2 = 0.5 $  
-   - Second term: $ |4.0 - 3.5| = 0.5 \leq \delta $ → $ \frac{1}{2}(0.5)^2 = 0.125 $  
-   - Third term: $ |2.0 - 1.0| = 1.0 \leq \delta $ → $ \frac{1}{2}(1)^2 = 0.5 $  
+   - First term: $|3.0 - 2.0| = 1.0 \leq \delta$ → $\frac{1}{2}(1)^2 = 0.5$  
+   - Second term: $|4.0 - 3.5| = 0.5 \leq \delta$ → $\frac{1}{2}(0.5)^2 = 0.125$  
+   - Third term: $|2.0 - 1.0| = 1.0 \leq \delta$ → $\frac{1}{2}(1)^2 = 0.5$  
 
 2. Compute the mean loss:  
 $$

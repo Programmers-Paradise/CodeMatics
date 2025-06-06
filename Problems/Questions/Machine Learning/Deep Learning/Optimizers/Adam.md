@@ -51,11 +51,11 @@ This updates parameters using the corrected moments, with adaptive learning rate
 
 **Key Components**:  
 - **Numerator ($\hat{m}_t$)**: Direction of update (from momentum).  
-- **Denominator ($\sqrt{\hat{v}_t + \epsilon}$)**: Adapts learning rate based on gradient magnitude.  
+- **Denominator ($\sqrt{\hat{v}_t} + \epsilon$)**: Adapts learning rate based on gradient magnitude.  
 
 ---
 
-###**Derivation Overview**  
+### **Derivation Overview**  
 
 ### **From SGD with Momentum to ADAM**  
 SGD with momentum updates parameters as: 
@@ -118,7 +118,7 @@ ADAM unifies these ideas:
    $$
    \theta_{t+1} = \theta_t - \alpha \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}
    $$  
-   
+
 ---
 ### **Features and Advantages**  
 

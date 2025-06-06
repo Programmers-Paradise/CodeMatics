@@ -14,24 +14,24 @@ $$
 
 Where:
 
-- $ p $ is a positive real number that determines the type of distance:
-  - When $ p = 2 $, Minkowski becomes **Euclidean** distance.
-  - When $ p = 1 $, it becomes **Manhattan** distance (not discussed here).
-- $ |p_i - q_i| $ represents the absolute difference between coordinates in the $ i $-th dimension.
+- $p$ is a positive real number that determines the type of distance:
+  - When $p =2$, Minkowski becomes **Euclidean** distance.
+  - When $p =1$, it becomes **Manhattan** distance (not discussed here).
+- $|p_i - q_i|$ represents the absolute difference between coordinates in the $ i $-th dimension.
 
 ---
 
 ### Explanation
 
-- The parameter $ p $ controls how differences are weighted:
-  - Larger values of $ p $ emphasize larger differences, while smaller values give more weight to smaller differences.
+- The parameter $p$ controls how differences are weighted:
+  - Larger values of $p$ emphasize larger differences, while smaller values give more weight to smaller differences.
 - Minkowski distance is widely used in clustering algorithms (e.g., k-means), nearest neighbor methods, and other machine learning applications where flexible distance measures are needed.
 
 ---
 
 ### Example
 
-For points $\mathbf{p} = (3, 4)$ and $\mathbf{q} = (7, 1)$ in 2D space with $ p = 3 $:
+For points $\mathbf{p} = (3, 4)$ and $\mathbf{q} = (7, 1)$ in 2D space with $p = 3$:
 
 $$
 d(\mathbf{p}, \mathbf{q}) = \left( |3 - 7|^3 + |4 - 1|^3 \right)^{\frac{1}{3}} 
@@ -43,4 +43,4 @@ $$
 
 ## Challenge
 
-Create a program to compute the Minkowski distance between two $ n $-dimensional vectors using a given parameter $ p $.
+Create a program to compute the Minkowski distance between two $n$-dimensional vectors using a given parameter $p$.

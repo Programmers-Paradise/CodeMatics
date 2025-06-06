@@ -6,15 +6,15 @@ Categorical Cross-Entropy is used for **multi-class classification problems** wh
 
 ### Categorical Cross-Entropy Formula  
 
-For $ n $ observations, where $ y_{i,k} \in \{0, 1\} $ is the actual label (one-hot encoded), and $ \hat{y}_{i,k} $ is the predicted probability for class $ k $:  
+For $ n $ observations, where $y_{i,k} \in \{0, 1\}$ is the actual label (one-hot encoded), and $\hat{y}_{i,k}$ is the predicted probability for class $k$:  
 
 $$
 L = -\frac{1}{n} \sum_{i=1}^{n} \sum_{k=1}^{K} y_{i,k} \cdot \log(\hat{y}_{i,k})
 $$
 
 Where:  
-- $ K $ is the number of classes.  
-- $ y_{i,k} = 1 $ if the actual class of observation $ i $ is $ k $.  
+- $K$ is the number of classes.  
+- $y_{i,k} = 1$ if the actual class of observation $i$ is $k$.  
 
 ---
 
@@ -27,12 +27,12 @@ Where:
 
 ### Example  
 
-Predicted probabilities $ \hat{y} = [[0.2, 0.7, 0.1], [0.6, 0.3, 0.1], [0.1, 0.8, 0.1]] $, actual labels (one-hot encoded) $ y = [[0, 1, 0], [0, 0, 1], [0, 1, 0]] $.  
+Predicted probabilities $\hat{y} = [[0.2, 0.7, 0.1], [0.6, 0.3, 0.1], [0.1, 0.8, 0.1]]$, actual labels (one-hot encoded) $y = [[0, 1, 0], [0, 0, 1], [0, 1, 0]]$.  
 
 1. Compute individual losses:  
-   - First observation: $ -\log(0.7) \approx 0.3567 $  
-   - Second observation: $ -\log(0.1) = 2.3026 $  
-   - Third observation: $ -\log(0.8) \approx 0.2231 $  
+   - First observation: $-\log(0.7) \approx 0.3567$  
+   - Second observation: $-\log(0.1) = 2.3026$  
+   - Third observation: $-\log(0.8) \approx 0.2231$  
 
 2. Compute the mean loss:  
 $$

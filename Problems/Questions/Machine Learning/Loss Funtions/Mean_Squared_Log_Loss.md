@@ -6,15 +6,15 @@ Mean Squared Log Error is used for **regression tasks** where the target variabl
 
 ### MSLE Formula  
 
-For $ n $ observations, where $ y_i $ is the actual value and $ \hat{y}_i $ is the predicted value:  
+For $n$ observations, where $ y_i $ is the actual value and $\hat{y}_i$ is the predicted value:  
 
 $$
 L = \frac{1}{n} \sum_{i=1}^{n} (\log(1 + y_i) - \log(1 + \hat{y}_i))^2
 $$
 
 Where:  
-- $ y_i $ is the actual value.  
-- $ \hat{y}_i $ is the predicted value.  
+- $y_i$ is the actual value.  
+- $\hat{y}_i$ is the predicted value.  
 
 ---
 
@@ -27,12 +27,12 @@ Where:
 
 ### Example  
 
-Predicted values $ \hat{y} = [10, 2, 5] $, actual values $ y = [5, 3, 4] $.  
+Predicted values $\hat{y} = [10, 2, 5]$, actual values $y = [5, 3, 4]$.  
 
 1. Compute log transformations:  
-   - $ \log(1 + 5) = \log(6) \approx 1.7918 $, $ \log(1 + 10) = \log(11) \approx 2.3979 $ → Difference: $ 2.3979 - 1.7918 = 0.6061 $  
-   - $ \log(1 + 3) = \log(4) \approx 1.3863 $, $ \log(1 + 2) = \log(3) \approx 1.0986 $ → Difference: $ 1.3863 - 1.0986 = 0.2877 $  
-   - $ \log(1 + 4) = \log(5) \approx 1.6094 $, $ \log(1 + 5) = \log(6) \approx 1.7918 $ → Difference: $ 1.6094 - 1.7918 = -0.1824 $  
+   - $\log(1 + 5) = \log(6) \approx 1.7918$, $\log(1 + 10) = \log(11) \approx 2.3979$ → Difference: $2.3979 - 1.7918 = 0.6061$  
+   - $\log(1 + 3) = \log(4) \approx 1.3863$, $\log(1 + 2) = \log(3) \approx 1.0986$ → Difference: $1.3863 - 1.0986 = 0.2877$  
+   - $\log(1 + 4) = \log(5) \approx 1.6094$, $\log(1 + 5) = \log(6) \approx 1.7918$ → Difference: $1.6094 - 1.7918 = -0.1824$  
 
 2. Compute the mean loss:  
 $$

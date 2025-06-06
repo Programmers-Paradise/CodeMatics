@@ -6,7 +6,7 @@ Quantile Loss is used for **quantile regression**, where the goal is to predict 
 
 ### Quantile Loss Formula  
 
-For $ n $ observations, where $ y_i $ is the actual value, $ \hat{y}_i $ is the predicted value, and $ \tau \in [0, 1] $ defines the quantile (e.g., $ \tau = 0.5 $ for median):  
+For $ n $ observations, where $ y_i $ is the actual value, $\hat{y}_i$ is the predicted value, and $\tau \in [0, 1]$ defines the quantile (e.g., $\tau = 0.5$ for median):  
 
 $$
 L = \frac{1}{n} \sum_{i=1}^{n} 
@@ -17,27 +17,27 @@ L = \frac{1}{n} \sum_{i=1}^{n}
 $$
 
 Where:  
-- $ y_i $ is the actual value.  
-- $ \hat{y}_i $ is the predicted value.  
-- $ \tau $ defines which quantile to estimate (e.g., 0.9 for the 90th percentile).  
+- $y_i$ is the actual value.  
+- $\hat{y}_i$ is the predicted value.  
+- $\tau$ defines which quantile to estimate (e.g., 0.9 for the 90th percentile).  
 
 ---
 
 ### Explanation  
 
-- **Quantile Estimation**: The loss penalizes underestimates and overestimates differently depending on $ \tau $. For example, if $ \tau = 0.2 $, it heavily penalizes underestimating the target (when actual > predicted) more than overestimating.  
+- **Quantile Estimation**: The loss penalizes underestimates and overestimates differently depending on $\tau$. For example, if $\tau = 0.2$, it heavily penalizes underestimating the target (when actual > predicted) more than overestimating.  
 - **Robustness to Outliers**: Unlike MSE, Quantile Loss is not affected by extreme values in the data.  
 
 ---
 
 ### Example  
 
-Predicted values $ \hat{y} = [3.0, 2.5, 4.0] $, actual values $ y = [2.0, 3.0, 5.0] $, and $ \tau = 0.2 $.  
+Predicted values $\hat{y} = [3.0, 2.5, 4.0]$, actual values $y = [2.0, 3.0, 5.0]$, and $\tau = 0.2$.  
 
 1. Compute individual losses:  
-   - First term: $ y_i = 2.0 < \hat{y}_i = 3.0 $ → $ (1 - 0.2)(3.0 - 2.0) = 0.8(1) = 0.8 $  
-   - Second term: $ y_i = 3.0 > \hat{y}_i = 2.5 $ → $ 0.2(3.0 - 2.5) = 0.2(0.5) = 0.1 $  
-   - Third term: $ y_i = 5.0 > \hat{y}_i = 4.0 $ → $ 0.2(5.0 - 4.0) = 0.2(1) = 0.2 $  
+   - First term:  $y_i = 2.0 < \hat{y}_i = 3.0 $ → $ (1 - 0.2)(3.0 - 2.0) = 0.8(1) = 0.8$  
+   - Second term: $y_i = 3.0 > \hat{y}_i = 2.5 $ → $ 0.2(3.0 - 2.5) = 0.2(0.5) = 0.1$  
+   - Third term: $y_i = 5.0 > \hat{y}_i = 4.0 $ → $ 0.2(5.0 - 4.0) = 0.2(1) = 0.2$  
 
 2. Compute the mean loss:  
 $$
