@@ -11,7 +11,7 @@ d(\mathbf{p}, \mathbf{q}) = \max_{i=1}^{n} |p_i - q_i|
 $$
 
 Where:
-- $p_i$ and $q_i$ are the coordinates of the points $ \mathbf{p}$ and $\mathbf{q}$ in the $i$-th dimension.
+- $p_i$ and $q_i$ are the coordinates of the points $\mathbf{p}$ and $\mathbf{q}$ in the $i$-th dimension.
 - $n$ is the number of dimensions.
 
 ### Explanation

@@ -9,7 +9,7 @@ and
 $B$ is defined as:
 
 $$
-\text{cosine}\text{ }\text{similarity}{A},{B}) = \frac{\sum_{i=1}^{n} a_i \cdot b_i}{\sqrt{\sum_{i=1}^{n} a_i^2} \cdot \sqrt{\sum_{i=1}^{n} b_i^2}}
+\text{cosine}\text{ }\text{similarity}({A},{B}) = \frac{\sum_{i=1}^{n} a_i \cdot b_i}{\sqrt{\sum_{i=1}^{n} a_i^2} \cdot \sqrt{\sum_{i=1}^{n} b_i^2}}
 $$
 
 $A⋅B$ is the dot product of vectors 
@@ -26,11 +26,12 @@ $$
 \mathbf{A} \cdot \mathbf{B} = \sum_{i=1}^{n} a_i \cdot b_i
 $$
 
-The magnitude (or norm) of vector $(\mathbf{A})$ is:
+The magnitude (or norm) of vector $\mathbf{A}$ is:
 
 $$
 \|\mathbf{A}\| = \sqrt{\sum_{i=1}^{n} a_i^2}
 $$
+
 The magnitude (or norm) of vector $(\mathbf{A})$ is:
 
 $$
@@ -40,7 +41,7 @@ $$
 Combining all components, the cosine similarity is:
 
 $$
-\text{cosine}\text{ }\text{similarity}{A},{B}) = \frac{\sum_{i=1}^{n} a_i \cdot b_i}{\sqrt{\sum_{i=1}^{n} a_i^2} \cdot \sqrt{\sum_{i=1}^{n} b_i^2}}
+\text{cosine}\text{ }\text{similarity}({A},{B}) = \frac{\sum_{i=1}^{n} a_i \cdot b_i}{\sqrt{\sum_{i=1}^{n} a_i^2} \cdot \sqrt{\sum_{i=1}^{n} b_i^2}}
 $$
 
 ## Challenge 
