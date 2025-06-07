@@ -90,34 +90,35 @@ ADAM unifies these ideas:
 | $\alpha$ (learning rate) | $10^{-3}$–$10^{-2}$ | Controls step size. | Scales the update magnitude: $\theta_{t+1} = \theta_t - \alpha \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}$. |
 | $\beta_1$ (first moment decay) | 0.9–0.999 | Controls momentum smoothing. | Determines how much past gradients influence the current update: $m_t = \beta_1 m_{t-1} + (1 - \beta_1) g_t$. |
 | $\beta_2$ (second moment decay) | 0.99–0.9999 | Controls variance smoothing. | Determines how much past squared gradients influence the current learning rate scale: $v_t = \beta_2 v_{t-1} + (1 - \beta_2) g_t^2$. |
-| $\epsilon$ | $10^{-8}$–$10^{-4}$ | Prevents division by zero. | Ensures numerical stability: $\sqrt{\hat{v}_t} + \epsilon$. |
+| $\epsilon$ | $10^{-8}$ – $10^{-4}$ | Prevents division by zero. | Ensures numerical stability: $\sqrt{\hat{v}_t} + \epsilon$. |
 
 ---
 
 ### **Key Equations Recap**  
+
 1. **First Moment**:
 
-   $$
-   m_t = \beta_1 m_{t-1} + (1 - \beta_1) g_t
-   $$  
+$$
+m_t = \beta_1 m_{t-1} + (1 - \beta_1) g_t
+$$  
 
 2. **Second Moment**:  
 
-   $$
-   v_t = \beta_2 v_{t-1} + (1 - \beta_2) g_t^2
-   $$  
+$$
+v_t = \beta_2 v_{t-1} + (1 - \beta_2) g_t^2
+$$  
 
 3. **Bias-Corrected Moments**:  
 
-   $$
-   \hat{m}_t = \frac{m_t}{1 - \beta_1^t}, \quad \hat{v}_t = \frac{v_t}{1 - \beta_2^t}
-   $$  
+$$
+\hat{m}_t = \frac{m_t}{1 - \beta_1^t}, \quad \hat{v}_t = \frac{v_t}{1 - \beta_2^t}
+$$  
 
 4. **Parameter Update**: 
 
-   $$
-   \theta_{t+1} = \theta_t - \alpha \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}
-   $$  
+$$
+\theta_{t+1} = \theta_t - \alpha \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}
+$$  
 
 ---
 ### **Features and Advantages**  
@@ -173,7 +174,7 @@ Examples Include:
    ADAM is often combined with cosine or step-based decay schedules to further optimize performance.  
 
 4. **Numerical Stability**:  
-   Ensure $ \epsilon $ is sufficiently small but avoids numerical instability (e.g., $ 10^{-8} $).  
+   Ensure $\epsilon$ is sufficiently small but avoids numerical instability (e.g., $10^{-8}$).  
 
 5. **Theoretical Limitations**:  
    ADAM’s convergence guarantees are weaker than those of SGD with momentum, though practical experiments often favor it.  
@@ -217,7 +218,8 @@ if __name__ == "__main__":
     grads = np.random.randn(3, 4)
 
     optimizer = AdamOptimizer()
-    optimizer.update_params(params, grads)```
+    optimizer.update_params(params, grads)
+```
 
 
 
