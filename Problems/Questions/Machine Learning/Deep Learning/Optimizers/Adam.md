@@ -87,10 +87,10 @@ ADAM unifies these ideas:
 
 | Hyperparameter | Value Range | Role | Equation Impact |
 |---------------|-------------|------|------------------|
-| $ \alpha $ (learning rate) | $ 10^{-3} $–$ 10^{-2} $ | Controls step size. | Scales the update magnitude: $ \theta_{t+1} = \theta_t - \alpha \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon} $. |
-| $ \beta_1 $ (first moment decay) | 0.9–0.999 | Controls momentum smoothing. | Determines how much past gradients influence the current update: $ m_t = \beta_1 m_{t-1} + (1 - \beta_1) g_t $. |
-| $ \beta_2 $ (second moment decay) | 0.99–0.9999 | Controls variance smoothing. | Determines how much past squared gradients influence the current learning rate scale: $ v_t = \beta_2 v_{t-1} + (1 - \beta_2) g_t^2 $. |
-| $ \epsilon $ | $ 10^{-8} $–$ 10^{-4} $ | Prevents division by zero. | Ensures numerical stability: $ \sqrt{\hat{v}_t} + \epsilon $. |
+| $\alpha$ (learning rate) | $10^{-3}$–$10^{-2}$ | Controls step size. | Scales the update magnitude: $\theta_{t+1} = \theta_t - \alpha \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}$. |
+| $\beta_1$ (first moment decay) | 0.9–0.999 | Controls momentum smoothing. | Determines how much past gradients influence the current update: $m_t = \beta_1 m_{t-1} + (1 - \beta_1) g_t$. |
+| $\beta_2$ (second moment decay) | 0.99–0.9999 | Controls variance smoothing. | Determines how much past squared gradients influence the current learning rate scale: $v_t = \beta_2 v_{t-1} + (1 - \beta_2) g_t^2$. |
+| $\epsilon$ | $10^{-8}$–$10^{-4}$ | Prevents division by zero. | Ensures numerical stability: $\sqrt{\hat{v}_t} + \epsilon$. |
 
 ---
 
