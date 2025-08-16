@@ -39,17 +39,17 @@ and we choose a maximum norm threshold $c = 3$.
 
 * If after an update,
 
-  $$
-  \|\mathbf{w}\|_2 = \sqrt{w_1^2 + w_2^2 + w_3^2} \leq 3,
-  $$
+$$
+\|\mathbf{w}\|_2 = \sqrt{w_1^2 + w_2^2 + w_3^2} \leq 3,
+$$
 
   nothing changes.
 
 * If instead $\|\mathbf{w}\|_2 = 5 > 3$, we rescale:
 
-  $$
-  \mathbf{w} \leftarrow \frac{3}{5} \cdot \mathbf{w}
-  $$
+$$
+\mathbf{w} \leftarrow \frac{3}{5} \cdot \mathbf{w}
+$$
 
 ensuring that the new weight vector has norm $\|\mathbf{w}\|_2 = 3$.
 
