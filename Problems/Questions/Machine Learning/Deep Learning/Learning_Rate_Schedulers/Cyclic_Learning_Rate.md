@@ -1,4 +1,3 @@
-Here’s a polished and consistent version of your write-up with cleaned math notation, improved clarity, and structured flow:
 
 ---
 
