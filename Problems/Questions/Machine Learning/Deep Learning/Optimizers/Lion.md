@@ -112,6 +112,9 @@ Lion is widely applied in:
 - **Natural Language Processing (NLP):** Accelerating the training of RNNs, LSTMs, and Transformers.  
 - **Research and Industry:** Used beyond ML, including physics simulations and engineering problems.  
 
+
+## Code
+
 ```python
 import torch
 from torch.optim.optimizer import Optimizer

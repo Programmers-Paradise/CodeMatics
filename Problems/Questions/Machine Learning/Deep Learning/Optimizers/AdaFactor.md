@@ -69,6 +69,8 @@ AdaFactor is widely used in training large-scale models such as transformer arch
 
 In summary, AdaFactor enhances optimization by providing parameter-specific learning rates, incorporating gradient clipping, and optimizing memory usage, making it a powerful tool in modern machine learning applications.
 
+## Code
+
 ```python
 import numpy as np
 

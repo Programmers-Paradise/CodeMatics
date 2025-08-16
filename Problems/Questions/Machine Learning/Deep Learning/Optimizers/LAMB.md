@@ -210,6 +210,9 @@ LAMB generates a regularization path that balances between Lasso (sparsity) and 
 
 ---
 
+## Code
+
+
 ```python
 import numpy as np
 

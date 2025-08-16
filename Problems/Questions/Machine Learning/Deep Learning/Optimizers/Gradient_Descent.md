@@ -163,6 +163,8 @@ $$
 - Cauchy, A. (1847). *Méthode générale pour la résolution des systèmes d'équations simultanées*.  
 - Bottou, L., & Bousquet, O. (2008). *The Trade-offs of Large Scale Learning*. NIPS.  
 
+## Code
+
 ```python
 import numpy as np
 

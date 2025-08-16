@@ -60,6 +60,8 @@ $$
 
 NovoGrad is particularly useful in training deep neural networks where large mini-batches are common. Its variance reduction properties make it effective in scenarios with high computational resources and distributed computing setups. It complements other optimizers by providing a stable gradient update mechanism, enhancing the efficiency of model training across various machine learning tasks.
 
+## Code
+
 ```python
 import numpy as np
 
