@@ -1,11 +1,11 @@
 
 
-### Multinomial Regression
+# Multinomial Regression
 
-#### Introduction
+## Introduction
 Multinomial regression is a statistical technique used to model the relationship between a categorical dependent variable with more than two categories and one or more independent variables. It extends binary logistic regression, which handles two outcomes, to scenarios where the dependent variable has three or more nominal categories. This method is widely used in various fields such as machine learning, natural language processing, healthcare, and market research for classification tasks.
 
-#### Definition
+## Definition
 Multinomial regression models the probability of each category of a multinomial response variable given a set of predictor variables. The model estimates the probability that an observation belongs to each category using the softmax function. For an observation $x_i$ with $p$ features, the probability that it belongs to class $j$ (where $j = 1, 2, ..., K $ ) is given by:
 
 $$
@@ -16,31 +16,12 @@ Here, $\beta_{jk}$ represents the regression coefficients for class $j$ and feat
 
 The model parameters are typically estimated using Maximum Likelihood Estimation (MLE), where the likelihood function is based on the predicted probabilities, and optimization techniques like gradient descent are used to find the parameter values that maximize this likelihood.
 
-#### Example
-Consider a dataset with three types of iris flowers: Setosa, Versicolor, and Virginica. We aim to predict their species using petal length ( $x_1$ ) and width ( $x_2$ ). The model for each class is:
-
-$$
-P(y_i = 1 | x_i) = \frac{e^{\beta_{10} + \beta_{11}x_{i1} + \beta_{12}x_{i2}}}{e^{\beta_{10} + \beta_{11}x_{i1} + \beta_{12}x_{i2}}} + e^{\beta_{20} + \beta_{21}x_{i1} + \beta_{22}x_{i2}}
-$$
-
-$$
-P(y_i = 2 | x_i) = \frac{e^{\beta_{20} + \beta_{21}x_{i1} + \beta_{22}x_{i2}}}{e^{\beta_{10} + \beta_{11}x_{i1} + \beta_{12}x_{i2}}} + e^{\beta_{20} + \beta_{21}x_{i1} + \beta_{22}x_{i2}}
-$$
-
-$$
-P(y_i = 3 | x_i) = \frac{e^{\beta_{30} + \beta_{31}x_{i1} + \beta_{32}x_{i2}}}{e^{\beta_{10} + \beta_{11}x_{i1} + \beta_{12}x_{i2}}} + e^{\beta_{20} + \beta_{21}x_{i1} + \beta_{22}x_{i2}} + e^{\beta_{30} + \beta_{31}x_{i1} + \beta_{32}x_{i2}}
-$$
-
-The loss function is the cross-entropy loss, calculated as:
-
-$$
-L = -\frac{1}{N} \sum_{i=1}^{N} \sum_{j=1}^{K} y_{ij} \log(P(y_i = j | x_i))
-$$
 
 
 
+## Example
 
-## 🌸 Multinomial Logistic Regression Training on Iris Dataset (Cross-Entropy Loss)
+### 🌸 Multinomial Logistic Regression Training on Iris Dataset (Cross-Entropy Loss)
 
 We use two standardized features:
 

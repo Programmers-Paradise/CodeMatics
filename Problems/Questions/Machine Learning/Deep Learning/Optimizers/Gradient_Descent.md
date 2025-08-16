@@ -162,3 +162,30 @@ $$
 ## **References**
 - Cauchy, A. (1847). *Méthode générale pour la résolution des systèmes d'équations simultanées*.  
 - Bottou, L., & Bousquet, O. (2008). *The Trade-offs of Large Scale Learning*. NIPS.  
+
+```python
+import numpy as np
+
+# Loss and gradient
+def loss(theta):
+    return (theta - 5)**2
+
+def grad(theta):
+    return 2 * (theta - 5)
+
+# Hyperparameters
+eta = 0.1    # learning rate
+epochs = 20
+
+# Initialize parameter
+theta = 0.0
+
+print(f"Initial theta = {theta:.4f}, loss = {loss(theta):.4f}")
+
+# Training loop
+for t in range(1, epochs+1):
+    g = grad(theta)              # compute gradient
+    theta = theta - eta * g      # update rule
+    
+    print(f"Step {t:2d}: theta = {theta:.6f}, loss = {loss(theta):.6f}")
+```

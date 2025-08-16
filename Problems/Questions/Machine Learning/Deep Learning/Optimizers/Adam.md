@@ -180,6 +180,7 @@ Examples Include:
    ADAM’s convergence guarantees are weaker than those of SGD with momentum, though practical experiments often favor it.  
    
 ## Code
+
 ```python
 import numpy as np
 
