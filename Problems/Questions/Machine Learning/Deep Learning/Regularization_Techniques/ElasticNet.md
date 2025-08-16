@@ -43,10 +43,7 @@ $$
 With Elastic Net, the regularized loss becomes:
 
 $$
-L_{\text{regularized}} = 
-\frac{1}{m} \sum_{i=1}^{m} \left( y_i - (\theta_0 + \theta_1 x_{i1} + \theta_2 x_{i2}) \right)^2 
-+ \lambda_1 \left( |\theta_0| + |\theta_1| + |\theta_2| \right) 
-+ \lambda_2 \left( \theta_0^2 + \theta_1^2 + \theta_2^2 \right)
+L_{\text{regularized}} = \frac{1}{m} \sum_{i=1}^{m} \left( y_i - (\theta_0 + \theta_1 x_{i1} + \theta_2 x_{i2}) \right)^2 + \lambda_1 \left( |\theta_0| + |\theta_1| + |\theta_2| \right) + \lambda_2 \left( \theta_0^2 + \theta_1^2 + \theta_2^2 \right)
 $$
 
 This ensures that some coefficients may shrink to **zero** (like L1), while others are only reduced in magnitude (like L2).
