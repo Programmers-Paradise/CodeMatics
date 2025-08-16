@@ -40,9 +40,7 @@ $$
 With L2 regularization, the loss function becomes:
 
 $$
-L_{\text{regularized}} = 
-\frac{1}{m} \sum_{i=1}^{m} \left( y_i - (\theta_0 + \theta_1 x_{i1} + \theta_2 x_{i2}) \right)^2 
-+ \lambda \left( \theta_0^2 + \theta_1^2 + \theta_2^2 \right)
+L_{\text{regularized}} = \frac{1}{m} \sum_{i=1}^{m} \left( y_i - (\theta_0 + \theta_1 x_{i1} + \theta_2 x_{i2}) \right)^2 + \lambda \left( \theta_0^2 + \theta_1^2 + \theta_2^2 \right)
 $$
 
 During optimization, the coefficients $\theta_0, \theta_1, \theta_2$ are adjusted to minimize this new loss. Unlike L1, the coefficients are usually **shrunk towards zero** but rarely become exactly zero.
