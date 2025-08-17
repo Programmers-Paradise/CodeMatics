@@ -119,9 +119,9 @@ where $C = e^{-C_1}$.
 
 - **Homogeneous Equation:** A first order linear differential equation is homogeneous if $Q(t) = 0$. The general solution to a homogeneous equation is:
 
-  $$
-  y_h(t) = Ce^{-\int P(t) dt}
-  $$
+$$
+y_h(t) = Ce^{-\int P(t) dt}
+$$
 
 ## Applications
 
