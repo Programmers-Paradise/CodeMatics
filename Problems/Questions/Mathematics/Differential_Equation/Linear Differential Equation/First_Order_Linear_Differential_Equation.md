@@ -103,7 +103,7 @@ $$
 e^{t^2}y = \frac{1}{2}e^{t^2} + C_1
 $$
 
-7. **Solve for \( y(t) \):**
+7. **Solve for $y(t)$:**
 
 $$
 y(t) = \frac{1}{2} + Ce^{-t^2}
@@ -119,9 +119,9 @@ where $C = e^{-C_1}$.
 
 - **Homogeneous Equation:** A first order linear differential equation is homogeneous if $Q(t) = 0$. The general solution to a homogeneous equation is:
 
-  $$
-  y_h(t) = Ce^{-\int P(t) dt}
-  $$
+$$
+y_h(t) = Ce^{-\int P(t) dt}
+$$
 
 ## Applications
 
