@@ -124,7 +124,7 @@ $$
 f(x) = \sum_{n=1}^{\infty} C_n \sin\left( \frac{n\pi x}{L} \right)
 $$
 
-The coefficients \( C_n \) are determined by:
+The coefficients $C_n$ are determined by:
 
 $$
 C_n = \frac{2}{L} \int_0^L f(x) \sin\left( \frac{n\pi x}{L} \right) dx
