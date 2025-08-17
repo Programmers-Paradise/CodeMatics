@@ -6,7 +6,7 @@ Max-Norm Regularization is a constraint-based regularization technique that rest
 
 ---
 
-## 📖 Definition
+## Definition
 
 For a weight vector $\mathbf{w}$, Max-Norm regularization enforces the constraint:
 
