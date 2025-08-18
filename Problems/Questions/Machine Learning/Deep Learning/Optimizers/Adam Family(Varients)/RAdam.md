@@ -20,11 +20,11 @@ v_{t+1} = \beta_2 v_t + (1 - \beta_2) g_t^2
 $$
 
 $$
-\hat{s}_{t+1} = \frac{s_{t+1}}{1 - \beta_1^{t+1}}
+\hat{s}_ {t+1} = \frac{s_{t+1}}{1 - \beta_1^{t+1}}
 $$
 
 $$
-\hat{v}_{t+1} = \frac{v_{t+1}}{1 - \beta_2^{t+1}}
+\hat{v}_ {t+1} = \frac{v_{t+1}}{1 - \beta_2^{t+1}}
 $$
 
 Where:  
@@ -55,7 +55,7 @@ This adjusts the second moment estimate depending on whether the gradient is spa
 The parameter update becomes:
 
 $$
-\theta_{t+1} = \theta_t - \eta_t \frac{\hat{s}_{t+1}}{\sqrt{\hat{v}_{t+1}} + \epsilon}
+\theta_{t+1} = \theta_t - \eta_t \frac{\hat{s}_ {t+1}}{\sqrt{\hat{v}_{t+1}} + \epsilon}
 $$
 
 where $\eta_t$ is the learning rate.
