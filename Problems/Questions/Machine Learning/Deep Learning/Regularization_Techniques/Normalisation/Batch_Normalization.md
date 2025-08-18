@@ -9,6 +9,7 @@ Batch Normalization (BN) is a technique used in training deep neural networks th
 Formally, for a given mini-batch $\{x_1, x_2, ..., x_m\}$ where $m$ is the batch size, BN transforms each activation value $x_i$ as follows:
 
 1. Compute the mean:
+
 $$
 \mu = \frac{1}{m} \sum_{i=1}^{m} x_i 
 $$
@@ -62,7 +63,7 @@ $$
 \hat{x}_{2,1} = \frac{2.0 - 1.25}{\sqrt{0.3125 + 1 \times 10^{-8}}} \approx 0.707 
 $$
 
-   Similarly, compute $\hat{x}_{1,j}$ and $\hat{x}_{2,j}$ for $j=2,3$.
+   Similarly, compute $\hat{x}_ {1,j}$ and $\hat{x}_{2,j}$ for $j=2,3$.
 
 4. Scale and shift (using $\gamma = 1$ and $\beta = 0$):
 
