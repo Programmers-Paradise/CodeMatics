@@ -90,7 +90,7 @@ $$
 r^2 + 4r + 3 = 0
 $$
 
-Solving for \( r \):
+Solving for $r$:
 
 $$
 (r + 1)(r + 3) = 0 \implies r = -1, -3
@@ -142,7 +142,7 @@ $$
 (2A) e^{-t} = e^{-t}
 $$
 
-Solving for \( A \):
+Solving for $A$:
 
 $$
 2A = 1 \implies A = \frac{1}{2}
