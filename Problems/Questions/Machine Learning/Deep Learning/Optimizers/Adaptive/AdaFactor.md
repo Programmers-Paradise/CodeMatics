@@ -24,12 +24,12 @@ $$
 \eta_t = \alpha \cdot \sqrt{1 - \beta_2^t} / (1 - \beta_2^t)
 $$
 
-   Here, $\alpha$ is the base learning rate, and $\beta_2$ is a hyperparameter smoothing the moving average of squared gradients.
+Here, $\alpha$ is the base learning rate, and $\beta_2$ is a hyperparameter smoothing the moving average of squared gradients.
 
 3. **Gradient Clipping**:
-
+   
 $$
-g_t = \min\left(\frac{g_t}{\text{clip\_ratio}}, 1\right)
+g_ t = \min\left(\frac{g_ t}{clipratio}, 1\right)
 $$
 
    This ensures that gradient values do not explode, improving training stability.
@@ -39,6 +39,7 @@ $$
 $$
 w_i^{(t)} = w_i^{(t-1)} - \eta_t \cdot m_t^{(i)}
 $$
+
    Each parameter $w_i$ is updated individually with its own learning rate $\eta_t$.
 
 ## Example
