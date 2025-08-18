@@ -23,32 +23,32 @@ For parameters $\theta_t$:
 
 1. Compute gradient:
 
-   $$
-   g_t = \nabla_\theta J(\theta_t)
-   $$
+$$
+g_t = \nabla_\theta J(\theta_t)
+$$
 
 2. First and second moment estimates:
 
-   $$
-   m_t = \beta_1 m_{t-1} + (1-\beta_1) g_t
-   $$
+$$
+m_t = \beta_1 m_{t-1} + (1-\beta_1) g_t
+$$
 
-   $$
-   v_t = \beta_2 v_{t-1} + (1-\beta_2) g_t^2
-   $$
+$$
+v_t = \beta_2 v_{t-1} + (1-\beta_2) g_t^2
+$$
 
 3. Bias correction:
 
-   $$
-   \hat m_t = \frac{m_t}{1-\beta_1^t}, \quad
-   \hat v_t = \frac{v_t}{1-\beta_2^t}
-   $$
+$$
+\hat m_t = \frac{m_t}{1-\beta_1^t}, \quad
+\hat v_t = \frac{v_t}{1-\beta_2^t}
+$$
 
 4. **AdamW parameter update**:
 
-   $$
-   \theta_{t+1} = \theta_t - \eta \cdot \frac{\hat m_t}{\sqrt{\hat v_t}+\epsilon} - \eta \cdot \lambda \theta_t
-   $$
+$$
+\theta_{t+1} = \theta_t - \eta \cdot \frac{\hat m_t}{\sqrt{\hat v_t}+\epsilon} - \eta \cdot \lambda \theta_t
+$$
 
    where:
 
@@ -64,9 +64,8 @@ where $\eta_t$ is the learning rate at iteration $t$, and $J$ is the cost functi
 
 ## Example
 
+We want to minimize 
 
-
-We want to minimize  
 $$
 J(\theta) = (\theta - 3)^2
 $$

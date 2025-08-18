@@ -9,7 +9,7 @@ Instance normalization normalizes the activations within each mini-batch for eac
 The formula for instance normalization is given by:
 
 $$
-\hat{x}_{ij} = \frac{x_{ij} - \mu_i}{\sqrt{\sigma_i^2 + \epsilon}}
+\hat{x}_ {ij} = \frac{x_{ij} - \mu_i}{\sqrt{\sigma_i^2 + \epsilon}}
 $$
 
 where:
@@ -45,14 +45,14 @@ Now, we apply instance normalization to each value in the mini-batch:
 
 $$
 \begin{align*}
-\hat{x}_{11} &= \frac{0.5 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -1.46 \\
-\hat{x}_{12} &= \frac{1.0 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -1.33 \\
-\hat{x}_{21} &= \frac{1.5 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -1.19 \\
-\hat{x}_{22} &= \frac{2.0 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -1.06 \\
-\hat{x}_{31} &= \frac{2.5 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -0.92 \\
-\hat{x}_{32} &= \frac{3.0 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -0.79 \\
-\hat{x}_{41} &= \frac{3.5 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -0.66 \\
-\hat{x}_{42} &= \frac{4.0 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -0.53
+\hat{x}_ {11} &= \frac{0.5 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -1.46 \\
+\hat{x}_ {12} &= \frac{1.0 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -1.33 \\
+\hat{x}_ {21} &= \frac{1.5 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -1.19 \\
+\hat{x}_ {22} &= \frac{2.0 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -1.06 \\
+\hat{x}_ {31} &= \frac{2.5 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -0.92 \\
+\hat{x}_ {32} &= \frac{3.0 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -0.79 \\
+\hat{x}_ {41} &= \frac{3.5 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -0.66 \\
+\hat{x}_ {42} &= \frac{4.0 - 2}{\sqrt{0.75 + 10^{-8}}} \approx -0.53
 \end{align*}
 $$
 

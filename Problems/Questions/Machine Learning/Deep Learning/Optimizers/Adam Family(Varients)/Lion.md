@@ -37,17 +37,15 @@ n_{t} = \gamma \cdot \text{sign}(g_{t}) \cdot \sqrt{|g_{t}|^{2}} + (1 - \beta_{2
 $$
 
 4. **Bias-corrected estimates:**
-
-$$
-\hat{m}_{t} = \frac{m_{t}}{1 - \beta_{1}^{t}}, 
-\quad 
-\hat{n}_{t} = \frac{n_{t}}{1 - \beta_{2}^{t}}
+   
+$$ 
+\hat{m}_ {t} = \frac{m_{t}}{1 - \beta_{1}^{t}}, \quad \hat{n}_ {t} = \frac{n_{t}}{1 - \beta_{2}^{t}} 
 $$
 
 5. **Update parameters:**
 
 $$
-\theta_{t} = \theta_{t-1} - \eta \cdot \frac{\hat{m}_{t}}{\hat{n}_{t} + \varepsilon}
+\theta_{t} = \theta_{t-1} - \eta \cdot \frac{\hat{m}_ {t}}{\sqrt{\hat{n}_{t}} + \varepsilon}
 $$
 
 ---
@@ -84,7 +82,7 @@ $$
 5. Bias-corrected estimates:  
 
 $$
-\hat{m}_{1} = \frac{5}{1 - 0.9} = 50, 
+\hat{m}_ {1} = \frac{5}{1 - 0.9} = 50, 
 \quad
 \hat{n}_{1} = \frac{5.003}{0.003} \approx 1667.67
 $$
