@@ -18,7 +18,7 @@ To calculate the IQR, follow these steps:
 
 1. **Sort the Data**: Arrange the dataset in ascending order.
 2. **Find Q1 and Q3**:
-   - If the number of observations \( n \) is odd, then:
+   - If the number of observations $n$ is odd, then:
      
 $$
 Q1 = \text{median}\left(\frac{n+1}{4}\right)^\text{th} \text{ observation} $$
