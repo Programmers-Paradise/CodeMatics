@@ -20,26 +20,27 @@ LAMB (Least Angle Regression with Bayesian Inference) is a regularization techni
 
 The LAMB optimization problem can be formulated as:
 
-\[
+$$
 \hat{\beta}_{\text{LAMB}} = \arg\min_{\beta} \left( \frac{1}{2n} \| y - X\beta \|_2^2 + \lambda \sum_{j=1}^{p} \pi_j |\beta_j| + (1-\lambda) \gamma \|\beta\|_2^2 \right)
-\]
+$$
 
 Where:
-- \( y \) is the response vector.
-- \( X \) is the design matrix.
-- \( \beta \) represents the model coefficients.
-- \( \lambda \) controls the trade-off between Lasso and Ridge penalties.
-- \( \pi_j \) are prior probabilities for each coefficient being non-zero.
+- $y$ is the response vector.
+- $X$ is the design matrix.
+- $\beta$ represents the model coefficients.
+- $\lambda$ controls the trade-off between Lasso and Ridge penalties.
+- $\pi_j$ are prior probabilities for each coefficient being non-zero.
 
 ---
 
 ## Example
 
-Consider a dataset with two features (\( x_1, x_2 \)) and one response variable (\( y \)). We aim to fit a linear model using the LAMB method.
+Consider a dataset with two features ($x_1, x_2$) and one response variable ($y$). We aim to fit a linear model using the LAMB method.
 
 ### Step 1: Data Preparation
 Assume we have the following data:
-\[
+
+$$
 X = \begin{bmatrix}
 1 & 2 \\
 3 & 4 \\
@@ -53,12 +54,12 @@ X = \begin{bmatrix}
 8.4 \\
 10.5 \\
 \end{bmatrix}
-\]
+$$
 
 ### Step 2: Model Initialization
 Set hyperparameters:
-- \( \lambda = 0.5 \)
-- \( \gamma = 0.1 \)
+- $\lambda = 0.5$
+- $\gamma = 0.1$
 
 Initialize coefficients to zero.
 
@@ -66,18 +67,21 @@ Initialize coefficients to zero.
 Using the LAMB algorithm, iteratively update coefficients by solving the optimization problem until convergence.
 
 After several iterations, we obtain the estimated coefficients:
-\[
+
+$$
 \hat{\beta} = \begin{bmatrix}
 0.5 \\
 0.8 \\
 \end{bmatrix}
-\]
+$$
 
 ### Step 4: Model Evaluation
 Evaluate the model using metrics like Mean Squared Error (MSE):
-\[
+
+$$
 \text{MSE} = \frac{1}{n} \| y - X\hat{\beta} \|_2^2
-\]
+$$
+
 Compute MSE to assess model performance.
 
 ---
@@ -88,7 +92,7 @@ Compute MSE to assess model performance.
 LAMB encourages sparsity by incorporating Lasso-like penalties, potentially setting some coefficients to zero. This helps in feature selection and reduces model complexity.
 
 ### Bayesian Interpretation
-The inclusion of prior probabilities (\( \pi_j \)) allows for Bayesian inference, enabling the incorporation of prior knowledge about coefficient distributions.
+The inclusion of prior probabilities ($\pi_j$) allows for Bayesian inference, enabling the incorporation of prior knowledge about coefficient distributions.
 
 ### Regularization Path
 LAMB generates a regularization path that balances between Lasso (sparsity) and Ridge (smoothness), offering flexibility in model tuning.
@@ -181,9 +185,11 @@ $$
 
 ### Step 4: Model Evaluation
 Evaluate the model using metrics like Mean Squared Error (MSE):
-\[
+
+$$
 \text{MSE} = \frac{1}{n} \| y - X\hat{\beta} \|_2^2
-\]
+$$
+
 Compute MSE to assess model performance.
 
 ---

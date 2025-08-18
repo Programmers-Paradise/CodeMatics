@@ -187,7 +187,3 @@ for t in range(1, 6):
     theta = theta - eta * update
     print(f"t={t:>2} | theta={theta:.6f}")
 ```
-
-Here’s a precise **definition of AdamW**:
-
----

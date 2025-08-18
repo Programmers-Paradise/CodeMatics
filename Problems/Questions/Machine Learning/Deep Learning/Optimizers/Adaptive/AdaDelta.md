@@ -31,21 +31,24 @@ Consider a simple logistic regression model with parameters θ. We aim to minimi
 
 3. **Update Running Average:**
    - Update $E[g²]$ using:
-     $$
-     E[g²]_t = γ * E[g²]_{t-1} + (1 - γ) * g_t^2
-     $$
+
+$$
+E[g²]_t = γ * E[g²]_{t-1} + (1 - γ) * g_t^2
+$$
 
 4. **Compute Δt:**
    - Calculate the adaptive learning rate component:
-     $$
-     Δt = E[g²]_{t-1} / \sqrt{E[g²]_t + ε}
-     $$
+
+$$
+Δt = E[g²]_{t-1} / \sqrt{E[g²]_t + ε}
+$$
 
 5. **Update Parameters:**
    - Update θ using:
-     $$
-     θ_{t+1} = θ_t - (Δt * g_t) 
-     $$
+
+$$
+θ_{t+1} = θ_t - (Δt * g_t) 
+$$
 
 6. **Repeat Steps 2-5 Until Convergence**
 
