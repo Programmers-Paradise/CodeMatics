@@ -50,7 +50,7 @@ This iterative process gradually adjusts the parameters to minimize the loss fun
 
 ## Properties
 
-1. **Learning Rate (\(\eta\))**: Controls convergence speed and stability. A high learning rate may overshoot minima, while a low rate can lead to slow convergence.
+1. **Learning Rate ($\eta$)**: Controls convergence speed and stability. A high learning rate may overshoot minima, while a low rate can lead to slow convergence.
    
 2. **Stochastic Nature**: Updates are based on single samples, introducing randomness that helps escape local minima.
 

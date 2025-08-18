@@ -12,7 +12,8 @@ The LBFGS algorithm is an approximation of the Newton-Raphson method that avoids
 
 $$
 s_k = x_{k+1} - x_k
-$$  
+$$ 
+ 
 where $s_k$ is the difference between consecutive iterates.
 
 2. **Approximate Inverse Hessian** ($H_k$):  
@@ -21,6 +22,7 @@ where $s_k$ is the difference between consecutive iterates.
 $$
 H_k = H_{k-1} + \frac{(y_{k-1} - H_{k-1}s_{k-1})s_{k-1}^T}{s_{k-1}^Ty_{k-1}}
 $$
+
 where $y_{k-1}$ is the difference between consecutive gradients.
 
 3. **Search Direction**:  

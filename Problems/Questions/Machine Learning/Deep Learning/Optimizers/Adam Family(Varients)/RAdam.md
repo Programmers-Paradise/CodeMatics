@@ -112,7 +112,7 @@ $$
 w_{\text{new}} = w - 0.001 \cdot \frac{\hat{s}_w}{\sqrt{\hat{v}_w} + 10^{-8}} \cdot (1 - \gamma_w)
 $$
 
-   Similarly for $b_{\text{new}}$.
+Similarly for $b_{\text{new}}$.
 
 ---
 
