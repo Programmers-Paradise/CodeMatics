@@ -10,7 +10,11 @@ $$
 \frac{dx}{dt} = f(x, \mu)
 $$
 
-where $x(t)$ is the state variable and $\mu$ is a parameter. A bifurcation point occurs at $\mu = \mu^*$ if there is a qualitative change in the dynamics of the system as $\mu$ crosses $\mu^*$.
+where $x(t)$ is the state variable and $\mu$ is a parameter. A bifurcation point occurs at 
+
+$$ \mu = \mu^* $$
+
+if there is a qualitative change in the dynamics of the system as $\mu$ crosses $\mu^*$ .
 
 ### Types of Bifurcations
 
