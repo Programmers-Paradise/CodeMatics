@@ -30,6 +30,7 @@ where $y_{k-1}$ is the difference between consecutive gradients.
 $$
 d_k = -H_k g_k
 $$
+
 where $g_k$ is the gradient at iteration $k$.
 
 4. **Line Search**:  
