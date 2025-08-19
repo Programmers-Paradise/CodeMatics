@@ -34,7 +34,7 @@ $$
 
 **Problem**: Estimate the average height of adult males in a city with a population of 10,000 individuals using stratified sampling.
 
-1. **Define Population**: \( N = 10,000 \) adult males.
+1. **Define Population**: $N = 10,000$ adult males.
 2. **Stratification**: Divide the population into strata based on age groups (e.g., 18-25, 26-35, etc.).
 3. **Sample Selection**: Select a random sample from each stratum. Suppose we select 50 individuals from each of 20 strata.
 4. **Calculate Sample Mean**:
