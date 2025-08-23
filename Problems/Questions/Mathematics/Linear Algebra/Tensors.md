@@ -43,22 +43,22 @@ $$
 ## Properties
 
 -   **Multilinear Transformation**: Tensors are multilinear maps that transform sets of vectors and dual vectors into scalars, ensuring consistent behavior under coordinate transformations.
--   **Coordinate Invariance**: The physical quantity represented by a tensor remains unchanged under coordinate transformations. The transformed components $A'_{kl}$ are related to the original components $A_{ij}$ by:
+-   **Coordinate Invariance**: The physical quantity represented by a tensor remains unchanged under coordinate transformations. The transformed components $A'_ {kl}$ are related to the original components $A_{ij}$ by:
 
 $$
-A'_{kl} = \frac{\partial x^{i}}{\partial x'^{k}} \frac{\partial x^{j}}{\partial x'^{l}} A_{ij}
+A'_ {kl} = \frac{\partial x^{i}}{\partial x'^{k}} \frac{\partial x^{j}}{\partial x'^{l}} A_{ij}
 $$
 
 -   **Tensor Addition**: Two tensors of the same rank and shape can be added component-wise:
 
 $$
-(\mathbf{A} + \mathbf{B})_{ijk} = A_{ijk} + B_{ijk}
+(\mathbf{A} + \mathbf{B})_ {ijk} = A_{ijk} + B_{ijk}
 $$
 
 -   **Tensor Multiplication (Outer Product)**: The outer product of two tensors results in a tensor whose rank is the sum of their individual ranks:
 
 $$
-(\mathbf{A} \otimes \mathbf{B})_{ijkl} = A_{ij} B_{kl}
+(\mathbf{A} \otimes \mathbf{B})_ {ijkl} = A_{ij} B_{kl}
 $$
 
 -   **Symmetry and Antisymmetry**:
