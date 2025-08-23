@@ -48,7 +48,7 @@ $$
 \| \alpha x \| = |\alpha| \cdot \| x \|
 $$
 
-Example: If $x = (2, 3)$, then $\| x \| = \sqrt{13}$. Scaling by $\alpha = 4 $:$ \| 4x \| = 4 \times \sqrt{13}$.
+Example: If $x = (2, 3)$, then $\| x \| = \sqrt{13}$. Scaling by $\alpha = 4$ : $\| 4x \| = 4 \times \sqrt{13}$.
 
 ### Positivity
 - For any non-zero vector $x$, $\| x \| > 0$.
