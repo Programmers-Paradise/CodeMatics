@@ -9,8 +9,9 @@ The concept of span is fundamental in linear algebra, providing insight into the
 In a vector space $V$ over a field $F$, the **span** of a subset $S = \{v_1, v_2, \ldots, v_k\}$ is defined as the set of all possible linear combinations of these vectors. Formally,
 
 $$
-\text{Span}(S) = \left\{ \sum_{i=1}^{k} a_i v_i \mid a_i \in F \right\}
+\text{Span}(S) = \left\( \sum_{i=1}^{k} a_i v_i | a_i \in F \right\)
 $$
+
 
 This means that any vector in $\text{Span}(S)$ can be expressed as:
 
@@ -27,7 +28,7 @@ The span of any set of vectors in $V$ forms a subspace of $V$. This is because t
 Consider the vectors $v_1 = (1, 0)$ and $v_2 = (0, 1)$ in $\mathbb{R}^2$. The span of these vectors is:
 
 $$
-\text{Span}\{v_1, v_2\} = \left\{ a(1, 0) + b(0, 1) \mid a, b \in \mathbb{R} \right\} = \{(a, b) \mid a, b \in \mathbb{R}\}
+\text{Span}\{v_1, v_2\} = \left( a(1, 0) + b(0, 1) \mid a, b \in \mathbb{R} \right) = \{(a, b) \mid a, b \in \mathbb{R}\}
 $$
 
 This spans the entire $\mathbb{R}^2$ plane.
@@ -35,7 +36,7 @@ This spans the entire $\mathbb{R}^2$ plane.
 As another example, consider the vectors $v_1 = (1, 0, 0)$ and $v_2 = (0, 1, 0)$ in $\mathbb{R}^3$. Their span is:
 
 $$
-\text{Span}\{v_1, v_2\} = \left\{ a(1, 0, 0) + b(0, 1, 0) \mid a, b \in \mathbb{R} \right\} = \{(a, b, 0) \mid a, b \in \mathbb{R}\}
+\text{Span}\{v_1, v_2\} = \left( a(1, 0, 0) + b(0, 1, 0) \mid a, b \in \mathbb{R} \right) = \{(a, b, 0) \mid a, b \in \mathbb{R}\}
 $$
 
 This is the $xy$-plane in three-dimensional space.
