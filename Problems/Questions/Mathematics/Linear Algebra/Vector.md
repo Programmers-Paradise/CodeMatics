@@ -8,7 +8,11 @@ Vectors are fundamental mathematical objects used to represent quantities with b
 A vector is an ordered collection of numbers representing magnitudes or coordinates in space. Formally, a vector $\mathbf{v}$ in $\mathbb{R}^n$ can be expressed as:
 
 $$
-\mathbf{v} = \begin{bmatrix}v_1 \\v_2 \\\vdots \\v_n\end{bmatrix}
+\mathbf{v} = \begin{bmatrix}v_1 \\
+v_2 \\
+\vdots \\
+v_n
+\end{bmatrix}
 $$
 
 where each $v_i$ is a scalar component of the vector.
@@ -17,7 +21,10 @@ where each $v_i$ is a scalar component of the vector.
 
 Consider two vectors in $\mathbb{R}^2$:
 
-$$\mathbf{u} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}, \quad\mathbf{v} = \begin{bmatrix} 3 \\ 4 \end{bmatrix}$$
+$$
+\mathbf{u} = \begin{bmatrix} 1 \\
+2 \end{bmatrix}, \quad\mathbf{v} = \begin{bmatrix} 3 \\
+4 \end{bmatrix}$$
 
 Adding these vectors results in:
 
@@ -39,7 +46,9 @@ $$
 - **Cross Product (in $\mathbb{R}^3$)**: The cross product of two vectors $\mathbf{u}$ and $\mathbf{v}$ in $\mathbb{R}^3$ is:
 
 $$
-\mathbf{u} \times \mathbf{v} = \begin{bmatrix}u_2 v_3 - u_3 v_2 \\u_3 v_1 - u_1 v_3 \\u_1 v_2 - u_2 v_1\end{bmatrix}
+\mathbf{u} \times \mathbf{v} = \begin{bmatrix}u_2 v_3 - u_3 v_2 \\
+u_3 v_1 - u_1 v_3 \\
+u_1 v_2 - u_2 v_1\end{bmatrix}
 $$
 
 ## Applications

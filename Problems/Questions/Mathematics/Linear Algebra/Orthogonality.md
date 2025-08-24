@@ -16,7 +16,20 @@ A set of vectors is called an **orthogonal set** if all pairs of distinct vector
 
 ## Example
 
-Consider the vectors $\mathbf{u} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$ and $\mathbf{v} = \begin{bmatrix} -2 \\ 1 \end{bmatrix}$ in $\mathbb{R}^2$. Their dot product is:
+Consider the vectors 
+
+$$
+\mathbf{u} = \begin{bmatrix} 1 \\
+2 \end{bmatrix}
+$$
+
+and 
+
+$$\mathbf{v} = \begin{bmatrix} -2 \\
+1 \end{bmatrix}
+$$
+
+in $\mathbb{R}^2$. Their dot product is:
 
 $$
 \mathbf{u} \cdot \mathbf{v} = (1)(-2) + (2)(1) = -2 + 2 = 0
