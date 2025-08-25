@@ -1,3 +1,5 @@
+Of course. Here is the roadmap with the `https://www.google.com/search?q=` prefix removed from all links, restoring them to the local file paths.
+
 # Statistics Learning Roadmap
 
 This roadmap is structured in levels, guiding you from the absolute basics to advanced applications.
@@ -9,13 +11,13 @@ This roadmap is structured in levels, guiding you from the absolute basics to ad
 *Start here. These topics are the bedrock of statistical thinking, providing the language and basic tools needed for everything else.*
 
   * **Probability\_Foundations**
-      * [Random Values](https://www.google.com/search?q=D:/Python/CodeMatics/Problems/Questions/Statistics/Statistics/Probability_Foundations/Random_Values.md)
-      * [Joint Probability](https://www.google.com/search?q=D:/Python/CodeMatics/Problems/Questions/Statistics/Statistics/Probability_Foundations/Joint_Probability.md)
-      * [Marginal Probability](https://www.google.com/search?q=D:/Python/CodeMatics/Problems/Questions/Statistics/Statistics/Probability_Foundations/Marginal_Probability.md)
-      * [Conditional Probability](https://www.google.com/search?q=D:/Python/CodeMatics/Problems/Questions/Statistics/Statistics/Probability_Foundations/Conditional_Probability.md)
-      * [Law of Total Probability](https://www.google.com/search?q=D:/Python/CodeMatics/Problems/Questions/Statistics/Statistics/Probability_Foundations/Law_of_Total_Probability.md)
-      * [Bayes Theorem](https://www.google.com/search?q=D:/Python/CodeMatics/Problems/Questions/Statistics/Statistics/Probability_Foundations/Bayes_Theorem.md)
-      * [Expected Values](https://www.google.com/search?q=D:/Python/CodeMatics/Problems/Questions/Statistics/Statistics/Probability_Foundations/Expected_Values.md)
+      * [Random Values](Probability_Foundations/Random_Values.md)
+      * [Joint Probability](Statistics/Probability_Foundations/Joint_Probability.md)
+      * [Marginal Probability](Statistics/Probability_Foundations/Marginal_Probability.md)
+      * [Conditional Probability](Statistics/Probability_Foundations/Conditional_Probability.md)
+      * [Law of Total Probability](Statistics/Probability_Foundations/Law_of_Total_Probability.md)
+      * [Bayes Theorem](Statistics/Probability_Foundations/Bayes_Theorem.md)
+      * [Expected Values](Statistics/Probability_Foundations/Expected_Values.md)
       * **Probability\_Distributions**
           * [Probability Distribution](https://www.google.com/search?q=D:/Python/CodeMatics/Problems/Questions/Statistics/Statistics/Probability_Foundations/Probability_Distributions/Probability_Distribution.md)
           * **Discrete\_Distributions**
