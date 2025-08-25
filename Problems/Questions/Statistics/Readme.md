@@ -1,5 +1,4 @@
-Of course. Here is the roadmap with the `https://www.google.com/search?q=` prefix removed from all links, restoring them to the local file paths.
-
+<<<<<<< HEAD
 # Statistics Learning Roadmap
 
 This roadmap is structured in levels, guiding you from the absolute basics to advanced applications.
@@ -127,3 +126,6 @@ This roadmap is structured in levels, guiding you from the absolute basics to ad
       * [Bayesian Neural Network](Bayesian_Statistics/Bayesian_Neural_Network.md)
   * **Related Concepts**
       * [Entropy](Entropy.md)
+=======
+
+>>>>>>> 1f4db102308ab24e54ddc232f87b1d6fee1fa41b
