@@ -1,4 +1,4 @@
-\DeclareMathOperator*{\argmax}{arg\,max}
+
 
 # Maximum Likelihood Estimation (MLE)
 
