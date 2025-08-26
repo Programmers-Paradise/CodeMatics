@@ -56,7 +56,7 @@ $$
 \Sigma_{XX}^{-1} \Sigma_{XY} = \frac{1}{19} \begin{bmatrix} 5 & -1 \\ -1 & 4 \end{bmatrix} \begin{bmatrix} 3 & 0.5 \\ 0.5 & 1 \end{bmatrix} = \frac{1}{19} \begin{bmatrix} 15 - 0.5 & 2.5 - 1 \\ -3 + 2 & -0.5 + 4 \end{bmatrix} = \frac{1}{19} \begin{bmatrix} 14.5 & 1.5 \\ -1 & 3.5 \end{bmatrix}
 $$
 
-Next, multiply by Σ_{YY}^{-1}:
+Next, multiply by $Σ_{YY}^{-1}$:
 
 $$
 \Sigma_{XX}^{-1} \Sigma_{XY} \Sigma_{YY}^{-1} = \frac{1}{19 \times 38} \begin{bmatrix} 14.5 & 1.5 \\ -1 & 3.5 \end{bmatrix} \begin{bmatrix} 7 & -2 \\ -2 & 6 \end{bmatrix}
