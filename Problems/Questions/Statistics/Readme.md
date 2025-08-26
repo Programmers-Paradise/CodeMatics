@@ -56,7 +56,7 @@ This roadmap is structured to guide you from foundational principles to advanced
     * **Hypothesis\_Testing**
         * [Hypothesis Testing](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis_Testing/Hypothesis_Testing.md)
         * [P values and Significance Level](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/P-values_and_Significance_Level.md)
-        * [Type I & Type II Errors](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Type_I_&_Type_II_Errors.md)
+        * [Type I & Type II Errors](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Type%20I%20%26%20Type%20II_Errors.md)
         * **Mean\_Tests**
             * [Z test](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Mean%20Tests/Z-test.md)
             * [t test](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Mean%20Tests/t-test.md)
@@ -64,13 +64,13 @@ This roadmap is structured to guide you from foundational principles to advanced
             * [Z test(Proportions)](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Proportion%20Tests/Z-test(Proportions).md)
             * [Chi square Test](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Proportion%20Tests/Chi-square_Test.md)
         * **Variance\_Tests**
-            * [F test](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Varience_Tests/F-test.md)
-            * [Levene's Test](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Varience%20Tests/Levene's_Test.md)
+            * [F test](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Varience%20Tests/F-test.md)
+            * [Levene's Test](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Varience%20Tests/Levene's%20Test.md)
         * **Group\_Comparison**
             * [ANOVA](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Group%20Comparison/ANOVA.md)
-            * [Mann Whitney U Test](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Group%20Comparison/Mann-Whitney_U_Test.md)
-            * [Wilcoxon Signed Rank Test](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Group%20Comparison/Wilcoxon_Signed-Rank_Test.md)
-            * [Kruskal Wallis Test](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Group%20Comparison/Kruskal-Wallis_Test.md)
+            * [Mann Whitney U Test](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Group%20Comparison/Mann-Whitney%20U%20Test.md)
+            * [Wilcoxon Signed Rank Test](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Group%20Comparison/Wilcoxon%20Signed-Rank%20Test.md)
+            * [Kruskal Wallis Test](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Group%20Comparison/Kruskal-Wallis%20Test.md)
 * [Standardization](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Standardization.md)
 * [Normalization](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Normalization.md)
 
