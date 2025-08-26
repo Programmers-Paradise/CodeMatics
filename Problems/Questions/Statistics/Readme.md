@@ -11,12 +11,12 @@ This roadmap is structured to guide you from foundational principles to advanced
 * [Readme](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Readme.md)
 * **Probability\_Foundations**
     * [Random Values](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Probability%20Foundations/Random_Values.md)
-    * [Joint Probability](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Probability%20Foundations/Joint_Probability.md)
-    * [Marginal Probability](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Probability%20Foundations/Marginal_Probability.md)
     * [Conditional Probability](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Probability%20Foundations/Conditional_Probability.md)
     * [Law of Total Probability](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Probability%20Foundations/Law_of_Total_Probability.md)
     * [Bayes Theorem](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Probability%20Foundations/Bayes_Theorem.md)
     * [Expected Values](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Probability%20Foundations/Expected_Values.md)
+    * [Joint Probability](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Probability%20Foundations/Joint_Probability.md)
+    * [Marginal Probability](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Probability%20Foundations/Marginal_Probability.md)
     * **Probability\_Distributions**
         * [Probability Distribution](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Probability%20Foundations/Probability%20Distributions/Probability_Distribution.md)
         * **Discrete\_Distributions**
