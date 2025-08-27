@@ -54,7 +54,7 @@ This roadmap is structured to guide you from foundational principles to advanced
     * [Central Limit Theorem](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Central_Limit_Theorem.md)
     * [Confidence Interval](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Confidence_Interval.md)
     * **Hypothesis\_Testing**
-        * [Hypothesis Testing](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis_Testing/Hypothesis_Testing.md)
+        * [Hypothesis Testing](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Hypothesis%20Testing/Hypothesis_Testing.md)
         * [P values and Significance Level](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/P-values_and_Significance_Level.md)
         * [Type I & Type II Errors](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Inferential%20Statistics/Type%20I%20%26%20Type%20II_Errors.md)
         * **Mean\_Tests**
@@ -85,7 +85,7 @@ This roadmap is structured to guide you from foundational principles to advanced
         * [Maximum Likelihood Estimation](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Estimation%20%26%20Regression/Point%20Estimators/Maximum_Likelihood_Estimation.md)
     * [Bias Variance Tradeoff](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Estimation%20%26%20Regression/Bias-Variance_Tradeoff.md)
     * [Generalized Linear Model](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Estimation%20%26%20Regression/Generalized_Linear_Model.md)
-    * [Bootstrap Methods](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Estimation%20%26%20Regression/Bootstrap_Methods.md)
+    * [Bootstrap Methods](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Estimation%20%26%20Regression/Bootstrap%20Methods.md)
 * **Experimental\_Statistics**
     * **Foundations\_Of\_Experimentation**
         * [Scientific Method and Experiments](https://github.com/Programmers-Paradise/CodeMatics/blob/main/Problems/Questions/Statistics/Experimental%20Statistics/Foundations%20Of%20Experimentation/Scientific_Method_and_Experiments.md)
