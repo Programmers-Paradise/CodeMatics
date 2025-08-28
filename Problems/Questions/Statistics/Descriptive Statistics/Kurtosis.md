@@ -28,13 +28,13 @@ $$
 X = \{1, 2, 2, 3, 4, 5, 6, 7, 8, 9\}
 $$
 
-### Step 1: Calculate the Mean (\(\mu\))
+### Step 1: Calculate the Mean ($\mu$)
 
 $$
 \mu = \frac{1 + 2 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9}{10} = \frac{50}{10} = 5
 $$
 
-### Step 2: Calculate the Standard Deviation (\(\sigma\))
+### Step 2: Calculate the Standard Deviation ($\sigma$)
 
 First, calculate the variance:
 
