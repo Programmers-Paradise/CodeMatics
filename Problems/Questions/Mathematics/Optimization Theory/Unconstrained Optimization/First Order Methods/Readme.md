@@ -1,0 +1,1 @@
+ Machine Learning Optimizers are same in context to Optimization Theory Optimization Methods, The Only difference is "Learning Rate" from ML is equivalent to "Step Size" in Optimization Theory 
