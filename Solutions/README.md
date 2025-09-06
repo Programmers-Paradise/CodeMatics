@@ -1,7 +1,7 @@
 # Solutions
 Here ,in this directory,You can submit your solutions for problems 
 
-For the solutions,prefer using `C` language.
+For the solutions,you can use any programming language.
 
 ## Solution Structure (Folder)
 [Solution Folder Info](Dummy_AI_1st\README.md)

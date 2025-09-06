@@ -8,7 +8,9 @@ Here questions will be given based upon
 - Statistical
 - Machine Learning
 
- to enhance understanding,implementation and programming skills of individuals.
+to enhance understanding,implementation and programming skills of individuals.
+
+These questions(Concepts) are derived from the Resources created by Gnosvia(AI/ML) Club of Programmers Paradise Technical Society, Individuals are guided to learn the concept and answer by creating a equivalent program(code) as a solutions(Implementation)
 
 ## Contribution
 
