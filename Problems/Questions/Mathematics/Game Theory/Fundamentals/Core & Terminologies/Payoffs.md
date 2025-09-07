@@ -1,4 +1,4 @@
-# Payoffs in Game Theory
+# Payoffs
 
 ## Introduction
 **Payoffs** are the quantitative heart of any game theory model. They are numerical values that represent the outcome, or utility, that each player receives for any given combination of strategies chosen by all players in the game. By assigning a numerical value to every possible result, payoffs allow for the rigorous, quantitative analysis of strategic interactions. They are the engine that drives the decision-making of rational players and are fundamental to predicting the outcome of a game.

@@ -1,4 +1,4 @@
-# Symmetric vs. Asymmetric Games in Game Theory
+# Symmetric vs. Asymmetric Games
 
 ## Introduction
 In game theory, classifying a strategic interaction as either **symmetric** or **asymmetric** is a fundamental first step in its analysis. This distinction is based on whether the players are interchangeable.

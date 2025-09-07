@@ -1,4 +1,4 @@
-# Definition and Scope of Game Theory
+# Definition and Scope 
 
 ## Introduction
 **Game Theory** is a branch of applied mathematics that provides a powerful framework for modeling and analyzing situations of **strategic interaction**. It is the formal study of decision-making where the outcome for each participant (or "player") depends on the choices made by all. By analyzing the strategies, incentives, and information available to the players, game theory helps us understand and predict the outcomes of these interactions. Its principles are fundamental to diverse fields, including economics, political science, evolutionary biology, computer science, and philosophy.

@@ -1,4 +1,4 @@
-# Players in Game Theory
+# Players
 
 ## Introduction
 

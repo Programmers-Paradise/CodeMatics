@@ -1,4 +1,4 @@
-# Information in Game Theory
+# Information
 
 ## Introduction
 In game theory, **information** refers to the knowledge that each player has when making a decision. This includes knowledge about the structure of the game (the players, strategies, and payoffs) and knowledge about the actions that have been taken by other players. The structure of information is a critical component of any game, as it profoundly influences the strategic challenges players face and the outcomes that can be expected. Analyzing a game begins with understanding "who knows what, and when."

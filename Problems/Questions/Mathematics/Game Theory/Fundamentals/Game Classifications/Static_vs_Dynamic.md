@@ -1,4 +1,4 @@
-# Static vs. Dynamic Games in Game Theory
+# Static vs. Dynamic Games
 
 ## Introduction
 In game theory, a crucial distinction is made between games based on the **timing** of the players' moves. This distinction separates all strategic interactions into two broad categories: **static games** and **dynamic games**.

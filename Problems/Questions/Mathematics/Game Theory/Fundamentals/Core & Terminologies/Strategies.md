@@ -1,4 +1,4 @@
-# Strategies in Game Theory
+# Strategies
 
 ## Introduction
 In game theory, a **strategy** is the fundamental object of choice for each player. It is a complete and predetermined plan of action that specifies what a player will do in any possible situation that could arise during the game. The concept of a strategy goes beyond a single move; it is a comprehensive policy for playing the game. Understanding the different types of strategies and how rational players choose among them is the core of game theory, allowing us to analyze and predict the outcomes of strategic interactions in fields from economics to computer science.

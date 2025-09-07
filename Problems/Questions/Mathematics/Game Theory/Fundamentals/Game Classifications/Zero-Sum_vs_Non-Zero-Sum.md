@@ -1,5 +1,4 @@
-# Zero-Sum vs. Non-Zero-Sum Games in Game Theory
-
+# Zero-Sum vs. Non-Zero-Sum Games
 ## Introduction
 In game theory, the nature of the payoffs is a fundamental characteristic that divides all strategic interactions into two primary categories: **zero-sum games** and **non-zero-sum games**. This distinction determines whether the game is one of pure conflict or if it allows for the possibility of cooperation and mutual benefit. Understanding this difference is crucial for accurately modeling real-world scenarios, from competitive sports and market competition to international trade and social dilemmas.
 

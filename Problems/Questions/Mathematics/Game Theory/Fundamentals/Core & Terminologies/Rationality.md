@@ -1,4 +1,4 @@
-# Rationality in Game Theory
+# Rationality
 
 ## Introduction
 **Rationality** is the foundational behavioral assumption in classical game theory. It provides a framework for understanding and predicting how players will act in a strategic situation. In this context, rationality does not mean being "correct" or "moral"; it simply means that each player is a self-interested, goal-oriented agent who makes decisions consistently to achieve their most preferred outcomes. This axiom is the starting point for analyzing strategic interactions and for deriving powerful solution concepts like the Nash Equilibrium.

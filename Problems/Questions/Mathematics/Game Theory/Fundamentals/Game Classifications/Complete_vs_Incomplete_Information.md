@@ -1,4 +1,4 @@
-# Complete vs. Incomplete Information in Game Theory
+# Complete vs. Incomplete Information
 
 ## Introduction
 

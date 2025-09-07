@@ -1,5 +1,4 @@
-# Cooperative vs. Non-Cooperative Game Theory
-
+# Cooperative vs. Non-Cooperative
 ## Introduction
 Game theory is broadly divided into two main branches: **non-cooperative game theory** and **cooperative game theory**. This distinction is the most fundamental in the field, as it is based on the players' ability to form binding agreements. The choice between these two frameworks depends entirely on the rules of the strategic situation being modeled.
 
