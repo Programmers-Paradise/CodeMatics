@@ -1,0 +1,70 @@
+# Adversarial Game Theory
+
+## Introduction
+**Adversarial game theory** is a specialized branch of game theory that focuses on strategic interactions between two or more players with diametrically opposed objectives. It provides the mathematical framework for analyzing situations of **pure conflict**, which are most often modeled as **zero-sum games**—where one player's gain is exactly another player's loss. This framework is pivotal for understanding and predicting behavior in competitive environments, from classic board games to modern applications in cybersecurity, economics, and adversarial machine learning.
+
+## The Minimax Principle: The Logic of Pure Conflict
+In a zero-sum game, a rational player must assume their opponent is also rational and will do everything in their power to minimize the first player's payoff. This leads to a conservative, "damage control" style of thinking.
+
+-   **Maximin Strategy (for the Maximizing Player)**: The player considers the worst possible outcome for each of their strategies and then chooses the strategy that yields the **best of these worst-case outcomes**. They act to **max**imize their **min**imum guaranteed payoff.
+
+-   **Minimax Strategy (for the Minimizing Player)**: The opponent considers the best possible outcome for the first player for each of their own strategies. They then choose the strategy that makes this best outcome as small as possible. They act to **min**imize the **max**imum payoff they could be forced to concede.
+
+## The Solution Concepts
+
+### 1. Saddle Point (Pure Strategy Equilibrium)
+In the simplest cases, an equilibrium exists in pure strategies. This occurs when the maximin value equals the minimax value. The outcome is called a **saddle point**.
+
+### 2. The Minimax Theorem (Mixed Strategy Equilibrium)
+Most zero-sum games do not have a saddle point. For these games, the solution lies in mixed strategies. The cornerstone theorem of adversarial game theory, proved by John von Neumann, is the **Minimax Theorem**:
+*For any finite, two-player, zero-sum game, there exists a value of the game, $v$, and a mixed strategy for each player, such that the maximin value equals the minimax value.*
+
+$$\max_{\mathbf{x}} \min_{\mathbf{y}} \mathbf{x}^T A \mathbf{y} = \min_{\mathbf{y}} \max_{\mathbf{x}} \mathbf{x}^T A \mathbf{y} = v$$
+
+This theorem guarantees that a stable solution (a Nash Equilibrium in mixed strategies) always exists.
+
+## Example: A Game without a Saddle Point
+Consider a two-player zero-sum game. The payoff matrix shows the payoffs for Player 1 (Player 2's payoffs are the negative of these).
+
+$$A = \begin{bmatrix} 3 & -1 \\
+-2 & 4 \end{bmatrix}$$
+
+**1. Check for a Saddle Point:**
+-   Row minima: $\min(3, -1) = -1$; $\min(-2, 4) = -2$. The maximin is $\max(-1, -2) = -1$.
+-   Column maxima: $\max(3, -2) = 3$; $\max(-1, 4) = 4$. The minimax is $\min(3, 4) = 3$.
+-   Since maximin (-1) $\neq$ minimax (3), no pure strategy saddle point exists. The solution must be in mixed strategies.
+
+**2. Find Player 1's Optimal Mixed Strategy (p):**
+-   Let Player 1 play Row 1 with probability $p$ and Row 2 with probability $(1-p)$. Player 1 chooses $p$ to make Player 2 indifferent between their columns.
+-   Expected payoff if P2 plays Col 1: $3p - 2(1-p) = 5p - 2$.
+-   Expected payoff if P2 plays Col 2: $-1p + 4(1-p) = 4 - 5p$.
+-   Set them equal: $5p - 2 = 4 - 5p \implies 10p = 6 \implies p = 0.6$.
+-   Player 1's optimal strategy is to play Row 1 with 60% probability and Row 2 with 40%.
+
+**3. Find Player 2's Optimal Mixed Strategy (q):**
+-   Let Player 2 play Col 1 with probability $q$ and Col 2 with probability $(1-q)$. Player 2 chooses $q$ to make Player 1 indifferent between their rows.
+-   Expected payoff if P1 plays Row 1: $3q - 1(1-q) = 4q - 1$.
+-   Expected payoff if P1 plays Row 2: $-2q + 4(1-q) = 4 - 6q$.
+-   Set them equal: $4q - 1 = 4 - 6q \implies 10q = 5 \implies q = 0.5$.
+-   Player 2's optimal strategy is to play Col 1 and Col 2 with 50% probability each.
+
+**4. Calculate the Value of the Game:**
+-   We can plug Player 2's strategy ($q=0.5$) into Player 1's expected payoff equations:
+    $v = 4(0.5) - 1 = 2 - 1 = 1$.
+-   The value of the game is **1**. With optimal play, Player 1 can guarantee an expected payoff of 1, and Player 2 can guarantee an expected loss of no more than 1.
+
+## Applications
+
+### 1. Adversarial Machine Learning
+This is a major modern application of adversarial game theory.
+-   **Generative Adversarial Networks (GANs)**: The training process is a zero-sum game. The **Generator** tries to create fake data to fool the **Discriminator**, while the Discriminator tries to correctly identify fakes. The Generator's goal is to minimize a loss function that the Discriminator is trying to maximize—a literal minimax game.
+-   **Adversarial Training**: To make models more robust, they are trained in a minimax framework. The inner loop finds the "worst-case" small perturbation to an input that maximizes the model's loss (an attack), and the outer loop updates the model's parameters to minimize that worst-case loss.
+
+### 2. Cybersecurity
+Modeling the strategic conflict between a network defender and an attacker as a zero-sum game helps in designing optimal defense mechanisms, allocating security resources, and predicting potential attack vectors.
+
+### 3. Classic Games and AI
+The minimax algorithm, used to create AI for classic games like Chess, Checkers, and Tic-Tac-Toe, is a direct application of adversarial game theory.
+
+### 4. Economic Competition and Military Strategy
+Used to model situations of pure conflict, such as two companies fighting for a fixed market share or two countries in a military standoff.
