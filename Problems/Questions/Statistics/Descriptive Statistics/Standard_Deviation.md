@@ -45,7 +45,3 @@ $$
 s = \sqrt{2.5} \approx 1.58
 $$
 
-
-## Challenge
-
-Create a program to find Standard Deviation of any values.
