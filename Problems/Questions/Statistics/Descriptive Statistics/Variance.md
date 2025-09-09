@@ -41,6 +41,4 @@ $$
 \text{Variance} = \frac{10}{4} = 2.5
 $$
 
-## Challenge
 
-Create a program to find Variance of a values.
