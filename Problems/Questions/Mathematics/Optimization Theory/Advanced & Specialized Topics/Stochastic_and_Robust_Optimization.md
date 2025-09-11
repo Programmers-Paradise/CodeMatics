@@ -22,7 +22,9 @@ A common formulation is to minimize the expected value of an objective function 
 
 $$\min_{\mathbf{x}} \mathbb{E}[f(\mathbf{x}, \boldsymbol{\xi})]$$
 
-Constraints can also be probabilistic, such as **chance constraints**, which require a constraint to hold with at least a certain probability:$$\mathbb{P}(g(\mathbf{x}, \boldsymbol{\xi}) \leq 0) \geq 1 - \epsilon$$
+Constraints can also be probabilistic, such as **chance constraints**, which require a constraint to hold with at least a certain probability:
+
+$$\mathbb{P}(g(\mathbf{x}, \boldsymbol{\xi}) \leq 0) \geq 1 - \epsilon$$
 
 **Key Characteristics:**
 -   Requires knowledge of the probability distribution of the uncertain parameters.
