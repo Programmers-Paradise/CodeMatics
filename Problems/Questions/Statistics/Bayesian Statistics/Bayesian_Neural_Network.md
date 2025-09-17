@@ -45,10 +45,10 @@ or using Monte Carlo sampling to estimate the integral.
 
 1. **Probabilistic Nature**: BNNs provide predictive distributions, accounting for uncertainty.
 
-  $$
-  p(y^* \mid \mathbf{x}^*, \mathbf{X}, \mathbf{y}) 
-  = \int p(y^* \mid \mathbf{x}^*, \mathbf{w}) \, p(\mathbf{w} \mid \mathbf{X}, \mathbf{y}) \, d\mathbf{w}
-  $$
+$$
+p(y^* \mid \mathbf{x}^* , \mathbf{X}, \mathbf{y}) 
+= \int p(y^* \mid \mathbf{x}^*, \mathbf{w}) \, p(\mathbf{w} \mid \mathbf{X}, \mathbf{y}) \, d\mathbf{w}
+$$
 
 2. **Uncertainty Quantification**: Captures both aleatoric and epistemic uncertainty.
 
