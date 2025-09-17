@@ -21,7 +21,8 @@ To calculate the IQR, follow these steps:
    - If the number of observations $n$ is odd, then:
      
 $$
-Q1 = \text{median}\left(\frac{n+1}{4}\right)^\text{th} \text{ observation} $$
+Q1 = \text{median}\left(\frac{n+1}{4}\right)^\text{th} \text{ observation} 
+$$
 
 $$
 Q3 = \text{median}\left(\frac{3(n+1)}{4}\right)^\text{th} \text{ observation}
@@ -41,7 +42,7 @@ $$
 
 Consider the following dataset:
 
-$[5, 7, 8, 9, 10, 12, 14, 16, 18, 20]$
+$$[5, 7, 8, 9, 10, 12, 14, 16, 18, 20]$$
 
 ### Step 1: Sort the Data
 The data is already sorted.
@@ -52,27 +53,30 @@ The data is already sorted.
 
 Calculate $Q1$:
 
-$Q1 = \text{average of the } \left(\frac{10}{2}\right)^\text{th and } \left(\frac{10}{2} + 1\right)^\text{th observations}$
+$$Q1 = \text{average of the } \left(\frac{10}{2}\right)^\text{th and } \left(\frac{10}{2} + 1\right)^\text{th observations}$$
 
-$Q1 = \text{average of the } 5^\text{th and } 6^\text{th observations}$
-$Q1 = \text{average of } 10 \text{ and } 12$
-$Q1 = \frac{10 + 12}{2} = 11$
+$$Q1 = \text{average of the } 5^\text{th and } 6^\text{th observations}$$
+
+$$Q1 = \text{average of } 10 \text{ and } 12$$
+
+$$Q1 = \frac{10 + 12}{2} = 11$$
 
 Calculate $Q3$:
 
-$Q3 = \text{average of the } \left(\frac{3 \times 10}{2}\right)^\text{th and } \left(\frac{3 \times 10}{2} + 1\right)^\text{th observations}$
+$$Q3 = \text{average of the } \left(\frac{3 \times 10}{2}\right)^\text{th and } \left(\frac{3 \times 10}{2} + 1\right)^\text{th observations}$$
 
-$Q3 = \text{average of the } 15^\text{th and } 16^\text{th observations}$
+$$Q3 = \text{average of the } 15^\text{th and } 16^\text{th observations}$$
 
 Since $n = 10$, we need to extend our dataset by repeating the last value:
-$[5, 7, 8, 9, 10, 12, 14, 16, 18, 20, 20]$
 
-$ Q3 = \text{average of } 18 \text{ and } 20$
+$$[5, 7, 8, 9, 10, 12, 14, 16, 18, 20, 20]$$
 
-$ Q3 = \frac{18 + 20}{2} = 19$
+$$ Q3 = \text{average of } 18 \text{ and } 20$$
+
+$$ Q3 = \frac{18 + 20}{2} = 19$$
 
 ### Step 3: Calculate the IQR
-$\text{IQR} = Q3 - Q1 = 19 - 11 = 8$
+$$\text{IQR} = Q3 - Q1 = 19 - 11 = 8$$
 
 ## Properties
 

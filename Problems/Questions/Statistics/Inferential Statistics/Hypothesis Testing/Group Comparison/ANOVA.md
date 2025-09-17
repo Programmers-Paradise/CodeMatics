@@ -77,7 +77,7 @@ With a p-value <0.05, we reject the null hypothesis.
 ## Properties
 
 ### Null Hypothesis:
-All group means are equal: \( H_0: \mu_A = \mu_B = \mu_C \)
+All group means are equal: $H_0: \mu_A = \mu_B = \mu_C$
 
 ### F-Test:
 Compares variance between groups to variance within groups.

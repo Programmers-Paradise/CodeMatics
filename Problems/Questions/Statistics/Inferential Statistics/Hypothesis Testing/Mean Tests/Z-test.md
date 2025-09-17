@@ -36,9 +36,10 @@ A company claims that its product has an average weight of 50 grams. A random sa
    - $H_a: \mu \neq 50$ (two-tailed test)
 
 2. **Calculate the Z-score:**
-   $$
-   Z = \frac{49.8 - 50}{2 / \sqrt{64}} = \frac{-0.2}{0.25} = -0.8
-   $$
+
+$$
+Z = \frac{49.8 - 50}{2 / \sqrt{64}} = \frac{-0.2}{0.25} = -0.8
+$$
 
 3. **Determine the critical value:**  
    For a two-tailed test at α=0.05, the critical Z-values are ±1.96.

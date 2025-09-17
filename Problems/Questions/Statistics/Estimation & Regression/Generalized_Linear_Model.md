@@ -8,7 +8,7 @@ A Generalized Linear Model is defined by three components:
 
 1. **Random Component**: The response variable $Y$ follows a distribution from the exponential family, which includes distributions such as normal, binomial, Poisson, etc.
    
-2. **Systematic Component**: The mean $\mu4 of $Y$ is related to a linear combination of predictors (features) through:
+2. **Systematic Component**: The mean $\mu$ of $Y$ is related to a linear combination of predictors (features) through:
 
 $$
 g(\mu) = X\beta
@@ -36,7 +36,7 @@ Consider a binary classification problem using logistic regression. Let’s mode
 
 **Step 1: Random Component**
 - Response variable $Y$ follows a Bernoulli distribution with probability $p$:
-- 
+  
 $$
 P(Y=1) = p, \quad P(Y=0) = 1 - p
 $$
@@ -50,7 +50,7 @@ $$
 
 **Step 3: Link Function**
 - Use the logit link function to relate $\eta$ to the probability $p$:
-- 
+
 $$
 g(p) = \ln\left(\frac{p}{1 - p}\right)
 $$
@@ -70,13 +70,13 @@ $$
 where $\sigma$ is the logistic function.
 
 **Step 5: Estimation**
-- Coefficients \( \beta_0, \beta_1 \) are estimated using maximum likelihood estimation (MLE), solving:
-- 
+- Coefficients $\beta_0, \beta_1$ are estimated using maximum likelihood estimation (MLE), solving:
+  
 $$
 \frac{\partial \ell}{\partial \beta} = 0
 $$
 
-where \( \ell \) is the log-likelihood function.
+where $\ell$ is the log-likelihood function.
 
 ## Properties
 

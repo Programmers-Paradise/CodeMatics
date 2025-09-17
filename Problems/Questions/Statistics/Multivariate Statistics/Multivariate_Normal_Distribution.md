@@ -13,9 +13,9 @@ f_{\mathbf{X}}(\mathbf{x}) = \frac{1}{(2\pi)^{k/2} |\boldsymbol{\Sigma}|^{1/2}} 
 $$
 
 where:
-- $\boldsymbol{\mu}$ is the mean vector,
-- $\boldsymbol{\Sigma}$ is the covariance matrix,
-- $|\boldsymbol{\Sigma}|$ is the determinant of $\boldsymbol{\Sigma}$.
+- $`\boldsymbol{\mu}`$ is the mean vector,
+- $`\boldsymbol{\Sigma}`$ is the covariance matrix,
+- $`|\boldsymbol{\Sigma}|`$ is the determinant of $\boldsymbol{\Sigma}$.
 
 ## Example
 
@@ -25,9 +25,9 @@ Consider a bivariate normal distribution with parameters:
 
 To find the probability density at point $\mathbf{x} = (1, 1)^T$:
 
-1. Compute $(\mathbf{x} - \boldsymbol{\mu})^T = (1, 1)$.
-2. Calculate $\boldsymbol{\Sigma}^{-1} = \frac{1}{0.75}\begin{pmatrix} 1 & -0.5 \\ -0.5 & 1 \end{pmatrix}$.
-3. Compute the quadratic form: $(1, 1) \boldsymbol{\Sigma}^{-1} (1, 1)^T = \frac{2}{3}$.
+1. Compute $`(\mathbf{x} - \boldsymbol{\mu})^T = (1, 1)`$.
+2. Calculate $`\boldsymbol{\Sigma}^{-1} = \frac{1}{0.75}\begin{pmatrix} 1 & -0.5 \\ -0.5 & 1 \end{pmatrix}`$.
+3. Compute the quadratic form: $`(1, 1) \boldsymbol{\Sigma}^{-1} (1, 1)^T = \frac{2}{3}`$.
 4. Substitute into the PDF formula to get:
 
 $$

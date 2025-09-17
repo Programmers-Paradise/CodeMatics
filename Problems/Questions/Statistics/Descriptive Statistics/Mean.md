@@ -4,7 +4,7 @@ The mean, or average, is a measure of central tendency that summarizes a set of 
 
 ### Mean Formula
 
-For a dataset with $n$ values ${x_1, x_2, \ldots, x_n}$, the mean $ \bar{x}$ is calculated as:
+For a dataset with $n$ values ${x_1, x_2, \ldots, x_n}$, the mean $\bar{x}$ is calculated as:
 
 $$
 \bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
@@ -24,7 +24,7 @@ Where:
 
 For a dataset with values ${4, 8, 6, 5, 7}$:
 
-The mean $\bar{x}$ is:
+The mean $`\bar{x}`$ is:
 
 $$
 \bar{x} = \frac{1}{5} (4 + 8 + 6 + 5 + 7) = \frac{30}{5} = 6
@@ -32,6 +32,3 @@ $$
 
 This indicates that the average value of the dataset is 6.
 
-## Challenge
-
-Create a program to find mean of any values.
