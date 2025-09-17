@@ -28,9 +28,7 @@ To test if this difference is statistically significant, we can perform a permut
 1.  **Calculate the observed difference**:
 
 $$
-\hat{p}_A = \frac{10}{50} = 0.20 \\
-\hat{p}_B = \frac{7}{50} = 0.14 \\
-\text{Observed Difference} = 0.20 - 0.14 = 0.06
+\hat{p}_A = \frac{10}{50} = 0.20 \quad \hat{p}_B = \frac{7}{50} = 0.140 \quad \text{Observed Difference} = 0.20 - 0.14 = 0.06
 $$
 
 2.  **Perform Permutation Test**:
