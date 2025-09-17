@@ -4,13 +4,13 @@ Canonical Correlation Analysis (CCA) is a statistical method used to find the li
 
 ## Definition
 
-Given two random vectors **X** ∈ ℝ^p and **Y** ∈ ℝ^q, CCA seeks to find the linear combinations:
+Given two random vectors **X** ∈ $ℝ^p$ and **Y** ∈ $ℝ^q$, CCA seeks to find the linear combinations:
 
 $$
 U = \mathbf{a}^\top \mathbf{X}, \quad V = \mathbf{b}^\top \mathbf{Y}
 $$
 
-where **a** ∈ ℝ^p and **b** ∈ ℝ^q are vectors of coefficients, such that the correlation between U and V is maximized. This is achieved by solving the optimization problem:
+where **a** ∈ $ℝ^p$ and **b** ∈ $ℝ^q$ are vectors of coefficients, such that the correlation between U and V is maximized. This is achieved by solving the optimization problem:
 
 $$
 \max_{\mathbf{a}, \mathbf{b}} \text{Corr}(U, V) = \frac{\mathbf{a}^\top \Sigma_{XY} \mathbf{b}}{\sqrt{\mathbf{a}^\top \Sigma_{XX} \mathbf{a}} \sqrt{\mathbf{b}^\top \Sigma_{YY} \mathbf{b}}}
@@ -40,7 +40,7 @@ $$
 \Sigma_{XX}^{-1} \Sigma_{XY} \Sigma_{YY}^{-1} \Sigma_{YX}
 $$
 
-First, calculate Σ_{XX}^{-1} and Σ_{YY}^{-1}:
+First, calculate $Σ_{XX}^{-1}$ and $Σ_{YY}^{-1}$:
 
 $$
 \Sigma_{XX}^{-1} = \frac{1}{(4)(5) - (1)^2} \begin{bmatrix} 5 & -1 \\ -1 & 4 \end{bmatrix} = \frac{1}{19} \begin{bmatrix} 5 & -1 \\ -1 & 4 \end{bmatrix}
