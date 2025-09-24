@@ -6,7 +6,7 @@ Kullback-Leibler Divergence is a measure of the difference between two probabili
 
 ### KL Divergence Formula  
 
-For discrete probability distributions $p $ (true) and $q$ (predicted), the Kullback-Leibler Divergence $D_{\text{KL}}(p \parallel q)$ is:  
+For discrete probability distributions $p$ (true) and $q$ (predicted), the Kullback-Leibler Divergence $D_{\text{KL}}(p \parallel q)$ is:  
 
 $$
 D_{\text{KL}}(p \parallel q) = \sum_{i=1}^{n} p_i \log\left(\frac{p_i}{q_i}\right)
