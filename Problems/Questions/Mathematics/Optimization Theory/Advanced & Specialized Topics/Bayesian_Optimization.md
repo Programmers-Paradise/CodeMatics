@@ -27,10 +27,14 @@ The algorithm is an iterative loop:
 
 1.  **Initialize**: Evaluate the true, expensive objective function at a few randomly selected points.
 2.  **Loop until a stopping criterion is met (e.g., budget of evaluations is exhausted)**:
+
     a. **Fit the Surrogate**: Fit a Gaussian Process to all the data points observed so far.
-    b. **Maximize the Acquisition Function**: Use the GP's predictions to define an acquisition function over the domain. Find the point $\mathbf{x}_{next}$ that maximizes this cheap-to-evaluate function.
-    c. **Evaluate the True Function**: Run the expensive evaluation of the true objective function at this new, promising point: $y_{next} = f(\mathbf{x}_{next})$.
-    d. **Update**: Add the new data point $(\mathbf{x}_{next}, y_{next})$ to the set of observations and repeat the loop.
+    
+    b. **Maximize the Acquisition Function**: Use the GP's predictions to define an acquisition function over the domain. Find the point $`\mathbf{x}_{next}`$ that maximizes this cheap-to-evaluate function.
+    
+    c. **Evaluate the True Function**: Run the expensive evaluation of the true objective function at this new, promising point: $`y_{next} = f(\mathbf{x}_{next})`$.
+    
+    d. **Update**: Add the new data point $`(\mathbf{x}_{next}, y_{next})`$ to the set of observations and repeat the loop.
 
 ## Example: Hyperparameter Tuning
 **Problem:** Find the optimal `learning_rate` and `regularization_strength` for a deep learning model to maximize its validation accuracy. Each model training (one function evaluation) takes 5 hours.
