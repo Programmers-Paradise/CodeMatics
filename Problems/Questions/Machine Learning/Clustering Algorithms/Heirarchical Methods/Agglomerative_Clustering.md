@@ -25,15 +25,15 @@ The core of the algorithm lies in how it defines the distance between two cluste
 
 $$d(C_i, C_j) = \min_{\mathbf{x} \in C_i, \mathbf{y} \in C_j} d(\mathbf{x}, \mathbf{y})$$
     
-3.  **Complete Linkage**: The distance between two clusters is the distance between the **farthest** pair of points. This method tends to produce more compact, spherical clusters.
+2.  **Complete Linkage**: The distance between two clusters is the distance between the **farthest** pair of points. This method tends to produce more compact, spherical clusters.
 
 $$d(C_i, C_j) = \max_{\mathbf{x} \in C_i, \mathbf{y} \in C_j} d(\mathbf{x}, \mathbf{y})$$
     
-5.  **Average Linkage**: The distance between two clusters is the **average** of all pairwise distances between points in the two clusters. This offers a good compromise between single and complete linkage.
+3.  **Average Linkage**: The distance between two clusters is the **average** of all pairwise distances between points in the two clusters. This offers a good compromise between single and complete linkage.
 
 $$d(C_i, C_j) = \frac{1}{|C_i||C_j|} \sum_{\mathbf{x} \in C_i} \sum_{\mathbf{y} \in C_j} d(\mathbf{x}, \mathbf{y})$$
     
-7.  **Ward's Linkage**: This popular method merges the pair of clusters that leads to the **minimum increase in the total within-cluster variance**. It tends to produce well-balanced, globular clusters and is often a good default choice.
+4.  **Ward's Linkage**: This popular method merges the pair of clusters that leads to the **minimum increase in the total within-cluster variance**. It tends to produce well-balanced, globular clusters and is often a good default choice.
 
 ## Example
 Consider four data points: A(1,1), B(2,1), C(5,4), D(6,4).
