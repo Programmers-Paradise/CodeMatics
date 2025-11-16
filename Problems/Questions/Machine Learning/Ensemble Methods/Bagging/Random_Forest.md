@@ -16,16 +16,19 @@ The algorithm involves two key sources of randomness:
 
 ### The Algorithm Steps:
 1.  For $b = 1$ to $B$ (where $B$ is the number of trees):
+
     a. Create a bootstrap sample $D_b$ from the training data.
-    b. Grow a decision tree $h_b$ on the sample $D_b$. At each node, instead of searching over all features, randomly select a subset of $m_{try}$ features and find the best split among them. The tree is typically grown to its maximum size without pruning.
-2.  To make a prediction for a new data point $\mathbf{x}$, aggregate the predictions of all $B$ trees:
+
+     b. Grow a decision tree $h_b$ on the sample $D_b$. At each node, instead of searching over all features, randomly select a subset of $m_{try}$ features and find the best split among them. The tree is typically grown to its maximum size without pruning.
+    
+3.  To make a prediction for a new data point $\mathbf{x}$, aggregate the predictions of all $B$ trees:
     -   **For Classification**: The final prediction is the majority vote from all trees.
 
-    $$\hat{y}(\mathbf{x}) = \text{mode}\{ h_1(\mathbf{x}), h_2(\mathbf{x}), \dots, h_B(\mathbf{x}) \}$$
+$$\hat{y}(\mathbf{x}) = \text{mode}\{ h_1(\mathbf{x}), h_2(\mathbf{x}), \dots, h_B(\mathbf{x}) \}$$
 
-    -  **For Regression**: The final prediction is the average of the predictions from all trees.
+$\quad$  **For Regression**: The final prediction is the average of the predictions from all trees.
 
-    $$\hat{y}(\mathbf{x}) = \frac{1}{B} \sum_{b=1}^{B} h_b(\mathbf{x})$$
+$$\hat{y}(\mathbf{x}) = \frac{1}{B} \sum_{b=1}^{B} h_b(\mathbf{x})$$
 
 ## Why Random Forest is Effective
 The primary advantage of Random Forest comes from **decorrelating the trees**.
